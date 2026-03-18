@@ -717,29 +717,117 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 /* ════════════════════════════════════════
    16. BOT CARD
    ════════════════════════════════════════ */
-
 .pp-cc-wrapper:hover { transform: scale(1.05); }
-.pp-cc-wrapper { flex: 0 1 380px; margin: 15px; width: 380px; height: 350px; transition: all 500ms ease; }
-.css-1s5evre { background: transparent; display: grid; grid-template-columns: 180px 200px; border-bottom: 2px solid #FFC2D1; border-radius: 0; grid-template-rows: 1fr 3fr; position: relative; gap: 5px; grid-template-areas: "name img" "desc img"; }
-.css-1q7rmf0 { position: relative; overflow: visible; grid-area: img; }
-.pp-cc-avatar { border: 2px solid #FFC2D1; border-radius: 1rem; }
-.css-nlxhw4 { grid-area: name; text-align: center; align-content: end; position: relative; overflow-y: auto; }
-.profile-character-card-description-box { grid-area: desc; background: #FDD5DFe3; border: 2px solid #FFC2D1; border-radius: 1rem; position: relative; overflow: hidden; }
-.pp-cc-description { max-height: 230px; height: 100%; overflow: hidden auto; padding: 15px; padding-bottom: 28px; }
-.css-k1urot { height: 100%; position: absolute; top: 15px; right: -15px; display: flex; gap: 2px; flex-direction: column; max-height: 200px; overflow-y: auto; background: #FDD5DFe3; border-radius: 1rem; border: 2px solid #FFC2D1; }
+.pp-cc-wrapper { flex: 0 1 380px; margin: 15px; width: 380px; transition: all 500ms ease; height: auto; }
+
+/* Bỏ grid, dùng block bình thường */
+.css-1s5evre {
+  background: transparent;
+  display: block !important;
+  border-bottom: 2px solid #FFC2D1;
+  position: relative;
+  overflow: hidden;     /* ← thêm dòng này */
+}
+
+/* Ảnh float phải */
+.css-1q7rmf0 {
+  float: right;
+  width: 200px;
+  position: relative;
+  overflow: visible;
+}
+.pp-cc-avatar { border: 2px solid #FFC2D1; border-radius: 1rem; width: 100%; }
+
+/* Tên bot */
+.css-nlxhw4 {
+  margin-right: 205px;
+  text-align: center;
+  min-height: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 4px;
+}
+
+/* Description */
+.profile-character-card-description-box {
+  margin-right: 205px;
+  min-height: 230px;
+  background: #FDD5DFe3;
+  border: 2px solid #FFC2D1;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.pp-cc-description { height: 100%; min-height: 230px; overflow: hidden auto; padding: 15px; padding-bottom: 28px; }
+
+/* Token count — clear float, full width, căn giữa */
+.css-1c9wmts {
+  clear: both;
+  width: 100%;
+  position: static !important;
+  bottom: unset !important;
+  right: unset !important;
+  text-align: center;
+  padding: 6px 0 2px;
+  display: block !important;
+}
+.pp-cc-tokens-count { color: #FFA2B9 !important; font-family: 'Grenze Gotisch', serif !important; font-size: 0.85rem !important; opacity: 1 !important; }
+
+/* Tags box — full width bên dưới */
+.css-k1urot {
+  position: static !important;
+  top: unset !important; right: unset !important;
+  left: unset !important; bottom: unset !important;
+  display: block !important;
+  width: calc(100% - 16px) !important;
+  background: #FDD5DFe3 !important;
+  border: 2px solid #FFC2D1 !important;
+  border-radius: 1rem !important;
+  padding: 7px 12px !important;
+  margin: 0 8px 8px !important;
+  max-height: unset !important;
+  height: auto !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+  list-style: none !important;
+  flex-direction: unset !important;
+}
+
+.chakra-wrap__listitem.pp-cc-tags-wrap {
+  display: inline-flex !important;
+  padding: 0 !important;
+  margin: 2px !important;
+}
+
+.pp-cc-tags-item {
+  display: inline-flex !important;
+  align-items: center !important;
+  font-size: 0.7rem !important;
+  line-height: 1 !important;
+  border: 1.5px solid #FFC2D1 !important;
+  border-radius: 999px !important;
+  padding: 3px 9px !important;
+  background: #FDD5DF !important;
+  color: #5c3040 !important;
+  font-family: 'Grenze Gotisch', serif !important;
+  width: auto !important;
+  white-space: nowrap !important;
+}
+.pp-cc-tags-item::after { content: "" !important; }
+
+.pp-tag-limitless { display: inline-flex !important; }
+.pp-cc-tags-wrap-custom .pp-cc-tags-item { display: inline !important; }
+.css-k1urot a { display: inline !important; text-decoration: none !important; color: inherit !important; }
+
 .css-1s5evre * { color: #5c3040; font-family: 'Cardo', serif; }
-.pp-cc-tags-item { display: inline-block; font-size: 0; line-height: 1.5; width: 30px; border: none; }
-.pp-cc-tags-wrap-custom, .pp-tag-limitless { display: none; }
-.pp-cc-tags-item::first-letter { font-size: 13px; }
-.css-1s5evre:after { content: ""; }
+.css-1s5evre:after { content: ""; clear: both; display: table; }
 .pp-cc-name { color: #c45c7a !important; font-family: 'Cinzel Decorative', serif !important; text-shadow: none; font-size: 0.85rem; }
 .profile-character-card-stats-box, .pp-cc-ribbon { left: unset; right: -12%; display: flex; justify-content: center; top: 5px; width: 100%; opacity: .8; }
-.css-1c9wmts { width: 100%; right: unset; bottom: -4px; }
-.pp-cc-tokens-count { color: #FFA2B9 !important; text-shadow: 0 1px 3px #0005; font-family: 'Grenze Gotisch', serif !important; font-size: 0.85rem !important; opacity: 1 !important; }
+
 .profile-character-card-description-box::after { content: "✦ Stand Alone"; position: absolute; bottom: 0; left: 0; right: 0; text-align: center; font-family: 'Grenze Gotisch', serif; font-size: 0.7rem; font-weight: 700; color: #ffa5b1; background: #FAE8ED; border-top: 1px solid #FFB7CE; padding: 3px 8px; letter-spacing: 1px; pointer-events: none; z-index: 5; }
 .pp-cc-wrapper:has(.pp-tag-midnightstatic) .profile-character-card-description-box::after { content: "⟡ Midnight Static"; background: #e8e0f5; border-color: #c4aee8; color: #6b4fa0; }
 .pp-cc-wrapper:has(.pp-tag-uclfiction) .profile-character-card-description-box::after { content: "★ University College London"; background: #ddeeff; border-color: #a8cce8; color: #3a6a99; }
-
 
 /* ════════════════════════════════════════
    17. PAGINATION & FILTER
@@ -1027,6 +1115,7 @@ body:has(.wine-toggle[open]) .pp-cc-tokens-count { color: #c47080 !important; }
 body:has(.wine-toggle[open]) .profile-character-card-description-box::after { background: #2e0e18 !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .pp-cc-wrapper:has(.pp-tag-midnightstatic) .profile-character-card-description-box::after { background: #1a0828 !important; border-color: #5a3570 !important; color: #d8b8f0 !important; }
 body:has(.wine-toggle[open]) .pp-cc-wrapper:has(.pp-tag-uclfiction) .profile-character-card-description-box::after { background: #0e1828 !important; border-color: #304870 !important; color: #b8c8e8 !important; }
+body:has(.wine-toggle[open]) .pp-cc-tags-item { background: #3d1020 !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
 
 /* Pagination & filter */
 body:has(.wine-toggle[open]) .pp-tabs-button { color: #f2e0e6 !important; }
