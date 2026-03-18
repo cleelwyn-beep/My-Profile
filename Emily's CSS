@@ -721,8 +721,8 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .pp-cc-wrapper { flex: 0 1 380px; margin: 15px; width: 380px; transition: all 500ms ease; height: auto; }
 
 /* Bỏ grid, dùng block bình thường */
-.css-1s5evre {
-  background: transparent;
+.css-1s5evre { 
+  background: #FAE8ED !important;
   display: block !important;
   border-bottom: 2px solid #FFC2D1;
   position: relative;
@@ -769,11 +769,17 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   bottom: unset !important;
   right: unset !important;
   text-align: center;
-  padding: 6px 0 2px;
+  padding: 14px 0 6px;
   display: block !important;
 }
-.pp-cc-tokens-count { color: #FFA2B9 !important; font-family: 'Grenze Gotisch', serif !important; font-size: 0.85rem !important; opacity: 1 !important; }
-
+.profile-character-card-tokens-count {
+  color: #c45c7a !important;
+  -webkit-text-fill-color: #c45c7a !important;
+  opacity: 1 !important;
+  font-family: 'Grenze Gotisch', serif !important;
+  font-size: 0.85rem !important;
+  text-shadow: none !important;
+}
 /* Tags box — full width bên dưới */
 .css-k1urot {
   position: static !important;
@@ -1105,13 +1111,22 @@ body:has(.wine-toggle[open]) .talent .title { border-color: #7a2035 !important; 
 body:has(.wine-toggle[open]) .talent-item { border-color: #7a2035 !important; }
 
 /* Bot card */
-body:has(.wine-toggle[open]) .css-1s5evre { border-color: #7a2035 !important; }
-body:has(.wine-toggle[open]) .pp-cc-avatar { border-color: #7a2035 !important; }
+body:has(.wine-toggle[open]) .css-1s5evre { 
+  background: #190810 !important;
+  border-color: #7a2035 !important;
+}
+body:has(.wine-toggle[open]) .pp-cc-avatar {
+border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .profile-character-card-description-box { background: #2e0e18e3 !important; border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .css-k1urot { background: #2e0e18e3 !important; border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .css-1s5evre * { color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .pp-cc-name { color: #c47080 !important; }
-body:has(.wine-toggle[open]) .pp-cc-tokens-count { color: #c47080 !important; }
+body:has(.wine-toggle[open]) .css-1c9wmts .pp-cc-tokens-count,
+body:has(.wine-toggle[open]) .profile-character-card-tokens-count {
+  color: #c47080 !important;
+  -webkit-text-fill-color: #c47080 !important;
+  text-shadow: none !important;
+}
 body:has(.wine-toggle[open]) .profile-character-card-description-box::after { background: #2e0e18 !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .pp-cc-wrapper:has(.pp-tag-midnightstatic) .profile-character-card-description-box::after { background: #1a0828 !important; border-color: #5a3570 !important; color: #d8b8f0 !important; }
 body:has(.wine-toggle[open]) .pp-cc-wrapper:has(.pp-tag-uclfiction) .profile-character-card-description-box::after { background: #0e1828 !important; border-color: #304870 !important; color: #b8c8e8 !important; }
@@ -1164,15 +1179,14 @@ body:has(.wine-toggle[open]) .manta-credit { color: #c47080 !important; }
 body:has(.wine-toggle[open]) .manta-credit a { color: #c47080 !important; }
 body:has(.wine-toggle[open]) .chakra-spinner { color: #c47080 !important; }
 
-/* Banner swap */
+/* ════ BANNER SWAP ════ */
 .banner-dark { display: none; }
 body:has(.wine-toggle[open]) .banner-light { display: none; }
-body:has(.wine-toggle[open]) .banner-dark { display: block; }
+body:has(.wine-toggle[open]) .banner-dark  { display: block; }
 
 /* ════════════════════════════════════════
    22. HIDE DARK BG
    ════════════════════════════════════════ */
-
 .dark-bg { display: none !important; }
 
 </style>
