@@ -49,7 +49,7 @@
 <p>If I was your boyfriend, I'd never let you go
 <p>I'd never let you go</p></div>
         <div class="series-buttons">
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--hashtag">＃ Hashtag </a>
+          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--hashtag">＃ Midnight Static </a>
           <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--card">✦ Card</a>
           <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--notion">◈ Notion</a>
         </div>
@@ -63,7 +63,7 @@
 <p>Founded in 1826, UCL was the first university in England to open its doors regardless of religion or background. Its grand portico, its echoing halls, its libraries stacked floor to ceiling — all of it carries the quiet pressure of expectation.</p>
 <p>This is where students dream of arriving. And where, once inside, they discover that keeping up is a different kind of battle entirely.</p></div>
         <div class="series-buttons">
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--hashtag">＃Hashtag</a>
+          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--hashtag">＃UCL fiction</a>
           <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--card">✦ Card</a>
           <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--notion">◈ Notion</a>
          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--hashtag">⟡ Phoenixes Club</a>
@@ -142,7 +142,7 @@ I'd never let you go</p></div>
 <!-- ══ FAVORITES ══ -->
 <article class="favorites">
   <div class="title">Favorites</div>
-  <div class="section-subtitle">the ones I hold closest ♡</div>
+  <div class="section-subtitle">creators who hold my heart ♡</div>
   <div class="favorites-scroll">
     <div class="fav-item">
       <a href="LINK" rel="noopener noreferrer">
@@ -202,7 +202,7 @@ I'd never let you go</p></div>
     </div>
     <div class="rec-item">
       <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/ajx1ge.png">
+        <img src="https://i.postimg.cc/8PSdKyM3/R0V5HC-LJ6GUJy-A4Eu-Wrq.webp">
         <div class="rec-name">Vera</div>
       </a>
     </div>
@@ -228,6 +228,30 @@ I'd never let you go</p></div>
       <a href="LINK" rel="noopener noreferrer">
         <img src="https://files.catbox.moe/cbzit2.webp">
         <div class="rec-name">Hanabei</div>
+      </a>
+    </div>
+<div class="rec-item">
+      <a href="LINK" rel="noopener noreferrer">
+        <img src="https://files.catbox.moe/7ajtfh.webp">
+        <div class="rec-name">Nonpratical</div>
+      </a>
+    </div>
+    <div class="rec-item">
+      <a href="LINK" rel="noopener noreferrer">
+        <img src="https://files.catbox.moe/ezlo4b.webp">
+        <div class="rec-name">Emi Yuu</div>
+      </a>
+    </div>
+<div class="rec-item">
+      <a href="LINK" rel="noopener noreferrer">
+        <img src="https://i.postimg.cc/3Jx5vZWj/Bh-Ciixt-X81z-X2Nlwri-8K.webp">
+        <div class="rec-name">Aquanautz</div>
+      </a>
+    </div>
+    <div class="rec-item">
+      <a href="LINK" rel="noopener noreferrer">
+        <img src="https://files.catbox.moe/4jsj69.webp">
+        <div class="rec-name">Petit-Moineau</div>
       </a>
     </div>
   </div>
@@ -263,8 +287,8 @@ I'd never let you go</p></div>
 
 <!-- ══ CREDIT (bắt buộc giữ) ══ -->
 <div class="manta-credit">
-  <a href="https://janitorai.com/profiles/25241a53-d996-45de-862d-f2ca87863b26_profile-of-manta-rae" rel="noopener">Base & Elements By RaeRae</a>
-  &nbsp;·&nbsp; Customised With Claude AI
+  <a href="https://janitorai.com/profiles/25241a53-d996-45de-862d-f2ca87863b26_profile-of-manta-rae" rel="noopener">Base By RaeRae</a>
+  &nbsp;·&nbsp; Redesigned By Emily And Claude 
 </div>
 
 
@@ -329,7 +353,8 @@ div:has(> .css-1s5evre), div:has(~ .css-1s5evre) { background: 0 0 !important; }
 .Btn2-purple, .glow-logo { border: none; box-shadow: none; background: 0 0; }
 .glow-logo::before, .glow-on-hover, .glow-on-hover::before, .glow-on-hover:after { background: 0 0 !important; }
 body:not(:has(.manta-credit))::before { content: "CREDIT IS REQUIRED"; position: fixed; inset: 0; z-index: 2999; display: flex; align-items: center; justify-content: center; text-align: center; background: #FAE8ED; color: #FFA2B9; font-family: monospace; font-size: 2rem; letter-spacing: 2px; text-transform: uppercase; white-space: pre-line; font-weight: 800; }
-
+.pp-page-background::after { pointer-events: none; z-index: 0; }
+.pp-cc-list-container { position: relative; z-index: 1; }
 
 /* ════════════════════════════════════════
    3. GRID LAYOUT
@@ -732,7 +757,7 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 /* Ảnh float phải */
 .css-1q7rmf0 {
   float: right;
-  width: 200px;
+  width: 170px;
   position: relative;
   overflow: visible;
 }
@@ -740,8 +765,8 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 
 /* Tên bot */
 .css-nlxhw4 {
-  margin-right: 205px;
-  text-align: center;
+  margin-right: 175px;
+text-align: center;
   min-height: 40px;
   display: flex;
   align-items: flex-end;
@@ -751,15 +776,15 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 
 /* Description */
 .profile-character-card-description-box {
-  margin-right: 205px;
-  min-height: 230px;
-  background: #FDD5DFe3;
+  margin-right: 175px;
+  min-height: 200px;
+ background: #FDD5DFe3;
   border: 2px solid #FFC2D1;
   border-radius: 1rem;
   position: relative;
   overflow: hidden;
 }
-.pp-cc-description { height: 100%; min-height: 230px; overflow: hidden auto; padding: 15px; padding-bottom: 28px; }
+.pp-cc-description { height: 100%; min-height: 200px; overflow: hidden auto; padding: 15px; padding-bottom: 28px; }
 
 /* Token count — clear float, full width, căn giữa */
 .css-1c9wmts {
@@ -799,7 +824,6 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   list-style: none !important;
   flex-direction: unset !important;
 }
-
 .chakra-wrap__listitem.pp-cc-tags-wrap {
   display: inline-flex !important;
   padding: 0 !important;
@@ -814,9 +838,9 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   border: 1.5px solid #FFC2D1 !important;
   border-radius: 999px !important;
   padding: 3px 9px !important;
-  background: #FDD5DF !important;
+  background: #FEF0F4 !important;
   color: #5c3040 !important;
-  font-family: 'Grenze Gotisch', serif !important;
+  font-family: 'DM Serif Text', serif !important;
   width: auto !important;
   white-space: nowrap !important;
 }
@@ -828,7 +852,7 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 
 .css-1s5evre * { color: #5c3040; font-family: 'Cardo', serif; }
 .css-1s5evre:after { content: ""; clear: both; display: table; }
-.pp-cc-name { color: #c45c7a !important; font-family: 'Cinzel Decorative', serif !important; text-shadow: none; font-size: 0.85rem; }
+.pp-cc-name { color: #c45c7a !important; font-family: 'Berkshire Swash', serif !important; text-shadow: none; font-size: 0.85rem; }
 .profile-character-card-stats-box, .pp-cc-ribbon { left: unset; right: -12%; display: flex; justify-content: center; top: 5px; width: 100%; opacity: .8; }
 
 .profile-character-card-description-box::after { content: "✦ Stand Alone"; position: absolute; bottom: 0; left: 0; right: 0; text-align: center; font-family: 'Grenze Gotisch', serif; font-size: 0.7rem; font-weight: 700; color: #ffa5b1; background: #FAE8ED; border-top: 1px solid #FFB7CE; padding: 3px 8px; letter-spacing: 1px; pointer-events: none; z-index: 5; }
@@ -913,7 +937,7 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .color-toggle:hover { color: #2a1a1e; background: #FFB2C5; }
 .wine-toggle { display: contents; }
 .wine-toggle > summary { list-style: none; }
-.manta-credit { grid-row: 1 / 2; grid-column: 1 / -1; font-size: 0.8rem; font-weight: 300; letter-spacing: 5px; opacity: 0.8; z-index: 99; text-align: center; font-family: cardo; color: #c45c7a; }
+.manta-credit { grid-row: 1 / 2; grid-column: 1 / -1; font-size: 0.6rem; font-weight: 300; letter-spacing: 1px; opacity: 0.8; z-index: 99; text-align: center; font-family: cardo; color: #c45c7a; }
 .manta-credit a { color: inherit; text-decoration: none; transition: all 700ms ease; }
 
 
@@ -1130,7 +1154,7 @@ body:has(.wine-toggle[open]) .profile-character-card-tokens-count {
 body:has(.wine-toggle[open]) .profile-character-card-description-box::after { background: #2e0e18 !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .pp-cc-wrapper:has(.pp-tag-midnightstatic) .profile-character-card-description-box::after { background: #1a0828 !important; border-color: #5a3570 !important; color: #d8b8f0 !important; }
 body:has(.wine-toggle[open]) .pp-cc-wrapper:has(.pp-tag-uclfiction) .profile-character-card-description-box::after { background: #0e1828 !important; border-color: #304870 !important; color: #b8c8e8 !important; }
-body:has(.wine-toggle[open]) .pp-cc-tags-item { background: #3d1020 !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
+body:has(.wine-toggle[open]) .pp-cc-tags-item { background: #5d2030  !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
 
 /* Pagination & filter */
 body:has(.wine-toggle[open]) .pp-tabs-button { color: #f2e0e6 !important; }
