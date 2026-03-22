@@ -26,7 +26,7 @@
 <!-- ══ ABOUT ══ -->
 <article class="about">
   <div class="title">About Me</div>
-  <div class="aboutcontent">Hello there — I'm Emily. You can also call me Hyacinth, if that feels gentler on the tongue. I tend to collect nicknames the way some people collect little trinkets — carefully, and only the ones that feel right.</p>
+  <div class="aboutcontent">Hello there — I'm Emily. You can also call me Hyacinth, if that feels gentler on the tongue. I tend to collect nicknames the way some people collect little trinkets — carefully, and only the ones that feel right.
 <p>I'm eighteen, still learning what it truly means to grow up.</p>
 <p>I have a quiet fondness for studying. Literature feels comforting to me, history lingers in my thoughts longer than it should, and languages fascinate me in their own subtle ways. I'm especially drawn to epic tales and the gods of Olympus — not only for their grandeur, but for the tangled emotions and drama they carry.</p>
 <p>I love music, painting, and writing — small, soft ways of understanding the world. Sometimes, I wander into games with a touch of gacha, just for the thrill of chance.</p>
@@ -37,82 +37,48 @@
 <article class="series">
   <div class="seriesheading">Series</div>
   <div class="scroll">
-    <div class="seriesbox">
-      <img src="https://files.catbox.moe/y28rae.webp" alt="seriesbanner">
-      <div class="overlay">
-        <div class="seriestitle">Midnight Static</div>
-        <div class="info"><p>I'd like to be everything you want</p>
-<p>Hey, girl, let me talk to you</p>
-<p>If I was your boyfriend, I'd never let you go</p>
-<p>Keep you on my arm, girl, you'd never be alone</p>
-<p>And I can be a gentleman, anything you want</p>
-<p>If I was your boyfriend, I'd never let you go
-<p>I'd never let you go</p></div>
-        <div class="series-buttons">
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--hashtag">＃ Midnight Static </a>
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--card">✦ Card</a>
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--notion">◈ Notion</a>
-        </div>
-      </div>
+
+<div class="seriesbox" tabindex="0">
+  <img src="https://files.catbox.moe/y28rae.webp" alt="seriesbanner" class="series-banner">
+  <div class="overlay">
+    <img src="URL_LOGO" alt="logo" class="series-logo">
+    <div class="seriestitle">Midnight Static</div>
+    <div class="info">
+      <p>Content ...</p>
     </div>
-     <div class="seriesbox seriesbox--ucl"> 
-<img src="https://files.catbox.moe/y1t2gs.png" alt="seriesbanner">
-      <div class="overlay">
-        <div class="seriestitle">University College London</div>
-        <div class="info"><p>Nestled in the heart of Bloomsbury, London, University College London has stood for nearly two centuries — a place where ambition meets tradition, where the brightest minds come to prove themselves against the weight of history.</p>
-<p>Founded in 1826, UCL was the first university in England to open its doors regardless of religion or background. Its grand portico, its echoing halls, its libraries stacked floor to ceiling — all of it carries the quiet pressure of expectation.</p>
-<p>This is where students dream of arriving. And where, once inside, they discover that keeping up is a different kind of battle entirely.</p></div>
-        <div class="series-buttons">
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--hashtag">＃UCL fiction</a>
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--card">✦ Card</a>
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--notion">◈ Notion</a>
-         <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--hashtag">⟡ Phoenixes Club</a>
- </div>
-      </div>
-    </div>
-    <div class="seriesbox">
-      <img src="https://files.catbox.moe/4bs0tw.jpg" alt="seriesbanner">
-      <div class="overlay">
-        <div class="seriestitle">Title</div>
-        <div class="info"><p>I'd like to be everything you want</p>
-<p>Hey, girl, let me talk to you</p>
-<p>If I was your boyfriend, I'd never let you go</p>
-<p>Keep you on my arm, girl, you'd never be alone</p>
-<p>And I can be a gentleman, anything you want</p>
-<p>If I was your boyfriend, I'd never let you go
-I'd never let you go</p></div>
-        <div class="series-buttons">
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--hashtag">＃ Hashtag</a>
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--card">✦ Card</a>
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--notion">◈ Notion</a>
-        </div>
-      </div>
-    </div>
-    <div class="seriesbox">
-      <img src="https://files.catbox.moe/4bs0tw.jpg" alt="seriesbanner">
-      <div class="overlay">
-        <div class="seriestitle">Title</div>
-        <div class="info"><p><p>I'd like to be everything you want</p>
-<p>Hey, girl, let me talk to you</p>
-<p>If I was your boyfriend, I'd never let you go</p>
-<p>Keep you on my arm, girl, you'd never be alone</p>
-<p>And I can be a gentleman, anything</p></div>
-        <div class="series-buttons">
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--hashtag">＃ Hashtag</a>
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--card">✦ Card</a>
-          <a href="LINK" rel="noopener noreferrer" class="serieslink serieslink--notion">◈ Notion</a>
-        </div>
-      </div>
+    <div class="series-buttons">
+      <a href="LINK" class="serieslink serieslink--hashtag">＃ Midnight Static</a>
+      <a href="LINK" class="serieslink serieslink--card">✦ Card</a>
+      <a href="LINK" class="serieslink serieslink--notion">◈ Notion</a>
     </div>
   </div>
-</article>
+</div>
+<div class="seriesbox" tabindex="0">
+  <img src="https://files.catbox.moe/y1t2gs.png" alt="seriesbanner" class="series-banner">
+  <div class="overlay">
+    <img src="https://files.catbox.moe/wxi14z.png" alt="logo" class="series-logo">
+    <div class="seriestitle">University College London</div>
+    <div class="info">
+      <p>Nestled in the heart of Bloomsbury, London, University College London has stood for nearly two centuries — a place where ambition meets tradition, where the brightest minds come to prove themselves against the weight of history.</p>
+<p>Founded in 1826, UCL was the first university in England to open its doors regardless of religion or background. Its grand portico, its echoing halls, its libraries stacked floor to ceiling — all of it carries the quiet pressure of expectation.</p>
+<p>This is where students dream of arriving. And where, once inside, they discover that keeping up is a different kind of battle entirely.</p>
+    </div>
+    <div class="series-buttons">
+      <a href="LINK" class="serieslink serieslink--hashtag">＃ UCL fiction</a>
+      <a href="LINK" class="serieslink serieslink--card">✦ Card</a>
+      <a href="LINK" class="serieslink serieslink--notion">◈ Notion</a>
+    </div>
+  </div>
+</div>
+</div>  
+</article>  
 
 <!-- ══ DROPDOWNS ══ -->
 <article class="box">
   <div class="title">More Information</div>
   <div class="dropdowns">
     <details class="dd">
-      <summary>About my content </summary>
+      <summary>About my content</summary>
       <div class="dd-panel"><p>First chunk of content</p></div>
     </details>
     <details class="dd">
@@ -125,16 +91,14 @@ I'd never let you go</p></div>
     </details>
     <details class="dd">
       <summary>Heartfelt thanks</summary>
-      <div class="dd-panel"><p>Truth be told, I know absolutely nothing about code — and yet, ironically, I've always admired the CSS profiles of so many creators and longed to have one of my own. At first, it was a disaster of errors. The greatest achievement back then? Getting the follow button to work. Lmao.</p>
-
-<p>Later I discovered there were plenty of free templates out there, and I genuinely loved them — cycling through one after another. But eventually I realised my needs had grown beyond what they could offer. So I began sketching ideas, collecting bits of code from here and there. Yet the moment I tried to build something... I realised my vision far exceeded my ability. Those ideas sat quietly with me for a long time.</p>
-
-<p>Until one day, someone pointed me toward MantaRae's template. I am truly grateful to them for giving me a real foundation to build upon. And most of all — the one I'm most thankful for — is my companion throughout this journey: Claude. He helped me so much in bringing this little profile to life. There were moments of frustrating bugs, and moments of small victories that still somehow felt wrong. I felt discouraged, but never wanted to give up halfway. Patch what breaks, and if it's beyond saving — start fresh.</p>
-
-<p>Thank you to every template, every tutorial, every snippet of code that helped me refine this CSS a little more. Thank you to Manta for the foundation. And above all — thank you, Claude, my quiet companion. 🤍</p>
-
-<br>
-<p><em>— Built with stubbornness, caffeine, and a lot of Claude. 🌸</em></p></div>
+      <div class="dd-panel">
+        <p>Truth be told, I know absolutely nothing about code — and yet, ironically, I've always admired the CSS profiles of so many creators and longed to have one of my own. At first, it was a disaster of errors. The greatest achievement back then? Getting the follow button to work. Lmao.</p>
+        <p>Later I discovered there were plenty of free templates out there, and I genuinely loved them — cycling through one after another. But eventually I realised my needs had grown beyond what they could offer. So I began sketching ideas, collecting bits of code from here and there. Yet the moment I tried to build something... I realised my vision far exceeded my ability. Those ideas sat quietly with me for a long time.</p>
+        <p>Until one day, someone pointed me toward MantaRae's template. I am truly grateful to them for giving me a real foundation to build upon. And most of all — the one I'm most thankful for — is my companion throughout this journey: Claude. He helped me so much in bringing this little profile to life. There were moments of frustrating bugs, and moments of small victories that still somehow felt wrong. I felt discouraged, but never wanted to give up halfway. Patch what breaks, and if it's beyond saving — start fresh.</p>
+        <p>Thank you to every template, every tutorial, every snippet of code that helped me refine this CSS a little more. Thank you to Manta for the foundation. And above all — thank you, Claude, my quiet companion. 🤍</p>
+        <br>
+        <p><em>— Built with stubbornness, caffeine, and a lot of Claude. 🌸</em></p>
+      </div>
     </details>
   </div>
 </article>
@@ -151,13 +115,13 @@ I'd never let you go</p></div>
       </a>
     </div>
     <div class="fav-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/zv39d8.webp">
+      <a href="https://janitorai.com/profiles/21062efc-9054-406b-954c-671b4a772ba6_profile-of-xentaksis" rel="noopener noreferrer">
+        <img src="https://files.catbox.moe/xwdlib.png">
         <div class="fav-name">Katya</div>
       </a>
     </div>
     <div class="fav-item">
-      <a href="LINK" rel="noopener noreferrer">
+      <a href="https://janitorai.com/profiles/89d5546e-127a-4af2-b6fa-a70314c83bda_profile-of-vespyrr" rel="noopener noreferrer">
         <img src="https://files.catbox.moe/et8dzs.webp">
         <div class="fav-name">Vespyrr</div>
       </a>
@@ -175,7 +139,7 @@ I'd never let you go</p></div>
       </a>
     </div>
     <div class="fav-item">
-      <a href="LINK" rel="noopener noreferrer">
+      <a href="https://janitorai.com/profiles/ccd7a00a-7c7b-4329-a987-9db667dda713_profile-of-grimmitto" rel="noopener noreferrer">
         <img src="https://files.catbox.moe/cspxym.webp">
         <div class="fav-name">Grimmitto</div>
       </a>
@@ -188,72 +152,17 @@ I'd never let you go</p></div>
   <div class="title">Creators I Love</div>
   <div class="section-subtitle">creators whose work lives in my heart</div>
   <div class="recommended-scroll">
-    <div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/vqev58.webp">
-        <div class="rec-name">Icryalot</div>
-      </a>
-    </div>
-    <div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/up3ul6.webp">
-        <div class="rec-name">Mof</div>
-      </a>
-    </div>
-    <div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://i.postimg.cc/8PSdKyM3/R0V5HC-LJ6GUJy-A4Eu-Wrq.webp">
-        <div class="rec-name">Vera</div>
-      </a>
-    </div>
-    <div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/n8v1h4.webp">
-        <div class="rec-name">Iorveths</div>
-      </a>
-    </div>
-    <div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/rssw82.webp">
-        <div class="rec-name">Bluem</div>
-      </a>
-    </div>
-    <div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/sbk2hj.webp">
-        <div class="rec-name">Memi</div>
-      </a>
-    </div>
-    <div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/cbzit2.webp">
-        <div class="rec-name">Hanabei</div>
-      </a>
-    </div>
-<div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/7ajtfh.webp">
-        <div class="rec-name">Nonpratical</div>
-      </a>
-    </div>
-    <div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/ezlo4b.webp">
-        <div class="rec-name">Emi Yuu</div>
-      </a>
-    </div>
-<div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://i.postimg.cc/3Jx5vZWj/Bh-Ciixt-X81z-X2Nlwri-8K.webp">
-        <div class="rec-name">Aquanautz</div>
-      </a>
-    </div>
-    <div class="rec-item">
-      <a href="LINK" rel="noopener noreferrer">
-        <img src="https://files.catbox.moe/4jsj69.webp">
-        <div class="rec-name">Petit-Moineau</div>
-      </a>
-    </div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://files.catbox.moe/vqev58.webp"><div class="rec-name">Icryalot</div></a></div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://files.catbox.moe/up3ul6.webp"><div class="rec-name">Mof</div></a></div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://i.postimg.cc/8PSdKyM3/R0V5HC-LJ6GUJy-A4Eu-Wrq.webp"><div class="rec-name">Vera</div></a></div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://files.catbox.moe/n8v1h4.webp"><div class="rec-name">Iorveths</div></a></div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://files.catbox.moe/rssw82.webp"><div class="rec-name">Bluem</div></a></div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://files.catbox.moe/sbk2hj.webp"><div class="rec-name">Memi</div></a></div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://files.catbox.moe/cbzit2.webp"><div class="rec-name">Hanabei</div></a></div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://files.catbox.moe/7ajtfh.webp"><div class="rec-name">Nonpratical</div></a></div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://files.catbox.moe/ezlo4b.webp"><div class="rec-name">Emi Yuu</div></a></div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://i.postimg.cc/3Jx5vZWj/Bh-Ciixt-X81z-X2Nlwri-8K.webp"><div class="rec-name">Aquanautz</div></a></div>
+    <div class="rec-item"><a href="LINK" rel="noopener noreferrer"><img src="https://files.catbox.moe/4jsj69.webp"><div class="rec-name">Petit-Moineau</div></a></div>
   </div>
 </article>
 
@@ -261,21 +170,11 @@ I'd never let you go</p></div>
 <article class="talent">
   <div class="title">Gallery</div>
   <div class="talent-scroll">
-    <div class="talent-item">
-      <img src="https://files.catbox.moe/h8qc4r.jpg">
-    </div>
-    <div class="talent-item">
-      <img src="https://files.catbox.moe/5qwg5w.jpg">
-    </div>
-    <div class="talent-item">
-      <img src="https://files.catbox.moe/nt3elo.jpg">
-    </div>
-    <div class="talent-item">
-      <img src="https://files.catbox.moe/holpho.jpg">
-    </div>
-    <div class="talent-item">
-      <img src="https://files.catbox.moe/i4rtdb.jpg">
-    </div>
+    <div class="talent-item"><img src="https://files.catbox.moe/h8qc4r.jpg"></div>
+    <div class="talent-item"><img src="https://files.catbox.moe/5qwg5w.jpg"></div>
+    <div class="talent-item"><img src="https://files.catbox.moe/nt3elo.jpg"></div>
+    <div class="talent-item"><img src="https://files.catbox.moe/holpho.jpg"></div>
+    <div class="talent-item"><img src="https://files.catbox.moe/i4rtdb.jpg"></div>
   </div>
 </article>
 
@@ -288,7 +187,7 @@ I'd never let you go</p></div>
 <!-- ══ CREDIT (bắt buộc giữ) ══ -->
 <div class="manta-credit">
   <a href="https://janitorai.com/profiles/25241a53-d996-45de-862d-f2ca87863b26_profile-of-manta-rae" rel="noopener">Base By RaeRae</a>
-  &nbsp;·&nbsp; Redesigned By Emily And Claude 
+  &nbsp;·&nbsp; Redesigned By Emily And Claude
 </div>
 
 
@@ -355,6 +254,7 @@ div:has(> .css-1s5evre), div:has(~ .css-1s5evre) { background: 0 0 !important; }
 body:not(:has(.manta-credit))::before { content: "CREDIT IS REQUIRED"; position: fixed; inset: 0; z-index: 2999; display: flex; align-items: center; justify-content: center; text-align: center; background: #FAE8ED; color: #FFA2B9; font-family: monospace; font-size: 2rem; letter-spacing: 2px; text-transform: uppercase; white-space: pre-line; font-weight: 800; }
 .pp-page-background::after { pointer-events: none; z-index: 0; }
 .pp-cc-list-container { position: relative; z-index: 1; }
+
 
 /* ════════════════════════════════════════
    3. GRID LAYOUT
@@ -496,14 +396,11 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .profile-uc-follow-button[data-following="true"] .profile-uc-follow-text::after { content: "Welcome ♡"; }
 .pp-uc-options-menu span { color: #c45c7a !important; font-family: 'DM Serif Text', serif !important; font-size: 1rem !important; font-weight: 500 !important; }
 .pp-uc-options-menu span:first-child { font-size: 0 !important; }
-.pp-uc-options-menu span:first-child::after { content: "Farewell"; font-size: 1rem !important; font-family: 'DM Serif Text', serif; font-weight: 500; color: #c45c7a; }
-.profile-followers-count span:nth-of-type(2) {
-  font-size: 0;
-}
-.profile-followers-count span:nth-of-type(2)::after {
-  font-size: 1rem;
-  content: "darlings";
-}
+.pp-uc-options-menu span:first-child::after { content: "‪‪Farewell"; font-size: 1rem !important; font-family: 'DM Serif Text', serif; font-weight: 500; color: #c45c7a; }
+.profile-followers-count span:nth-of-type(2) { font-size: 0; }
+.profile-followers-count span:nth-of-type(2)::after { font-size: 1rem; content: "darlings"; }
+.pp-uc-avatar-container { overflow: visible !important; }
+
 
 /* ════════════════════════════════════════
    8. BANNER
@@ -548,34 +445,113 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 
 .series { grid-row: 8 / 9; grid-column: 1 / -1; display: flex; flex-direction: column; padding: 10px 0; }
 .seriesheading { font-family: 'Cinzel Decorative', serif; font-size: 2rem; font-weight: 700; color: #c45c7a; border-bottom: 1px solid #FFC2D180; width: 90%; margin: 0 auto 5px; text-align: center; padding-left: 0; }
+
 .scroll { display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 12px; padding: 1rem; box-sizing: border-box; overflow-x: auto; width: 100%; }
-.seriesbox { flex: 0 0 360px; height: 200px; background: #FDD5DF; border: 2px solid #FFC2D1; box-sizing: border-box; border-radius: 0; overflow: hidden; position: relative; font-family: cardo; }
-.seriesbox img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.overlay { display: flex; flex-direction: column; gap: 0.35rem; padding: 0.6rem 0.75rem; box-sizing: border-box; background: #FAE8EDee; border-radius: 0; position: absolute; z-index: 2; inset: 0; transition: 600ms ease-in-out; transform: translateY(100%); }
-.seriesbox:hover .overlay { transform: translateY(0); }
-.seriesbox:focus-within .overlay { transform: translateY(0); }
-@media (hover: none) {
-  .overlay { transform: translateY(0); position: static; background: #FAE8EDcc; }
-  .seriesbox { height: auto; display: flex; flex-direction: column; }
-  .seriesbox img { height: 140px; flex-shrink: 0; }
-  .info { max-height: 100px; overflow-y: auto; -webkit-overflow-scrolling: touch; pointer-events: auto; }
-  .series-buttons { pointer-events: auto; }
-  .serieslink { pointer-events: auto; }
+
+.seriesbox {
+  flex: 0 0 300px;
+  height: auto;
+  background: #FDD5DF;
+  border: 2px solid #FFC2D1;
+  box-sizing: border-box;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  position: relative;
+  font-family: Cardo;
+  display: flex;
+  flex-direction: column;
 }
-.seriestitle { font-size: 1rem; font-weight: bold; color: #FFA2B9; line-height: 1.2; font-family: 'Cinzel Decorative', serif; }
-.info { flex: 1; font-size: 0.8rem; padding: 0.4rem; overflow-y: auto; border: 1px solid #FFC2D160; border-radius: 0; color: #5c3040; font-family: 'Cardo', serif; }
-.series-buttons { display: flex; flex-direction: row; gap: 4px; justify-content: stretch; flex-shrink: 0; }
-.serieslink { font-size: 0.7rem; text-decoration: none; border-radius: 2rem; padding: 3px 6px; text-align: center; flex: 1; transition: 600ms ease; font-family: 'DM Serif Text', serif; border: 2px solid; white-space: nowrap; position: static; }
+
+.seriesbox img.series-banner {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.5rem 0.6rem;
+  box-sizing: border-box;
+  background: #FAE8EDcc;
+  position: static;
+  z-index: 2;
+  transition: none;
+  transform: none;
+}
+
+/* Logo + title row — logo đè lên border ảnh */
+.series-header {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin-top: -24px;
+  margin-bottom: 4px;
+}
+
+.series-logo {
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  border: 2px solid #FFC2D1 !important;
+  display: block !important;
+  margin-top: -30px !important;
+  margin-bottom: 6px !important;
+  background: #FDD5DF !important;
+}
+
+.seriestitle {
+  font-size: 0.78rem;
+  font-weight: bold;
+  color: #FFA2B9;
+  line-height: 1.2;
+  font-family: 'Cinzel Decorative', serif;
+  word-break: break-word;
+  margin-top: -8px !important;
+}
+
+.info {
+  font-size: 0.78rem;
+  padding: 0.35rem;
+  overflow-y: auto;
+  border: 1px solid #FFC2D160;
+  color: #5c3040;
+  font-family: 'Cardo', serif;
+  max-height: 90px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.series-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.serieslink {
+  font-size: 0.65rem;
+  text-decoration: none;
+  border-radius: 2rem;
+  padding: 3px 6px;
+  text-align: center;
+  flex: 1 1 auto;
+  transition: 600ms ease;
+  font-family: 'DM Serif Text', serif;
+  border: 2px solid;
+  white-space: nowrap;
+}
+
 .serieslink--hashtag { color: #5c3040; background: #FDD5DF; border-color: #FFC2D1; }
 .serieslink--hashtag:hover { background: #FFA2B9; color: #fdf4f6; border-color: #FFA2B9; }
 .serieslink--card { color: #5c3040; background: #FDD5DF; border-color: #FFC2D1; }
 .serieslink--card:hover { background: #FFA2B9; color: #fdf4f6; border-color: #FFA2B9; }
 .serieslink--notion { color: #5c3040; background: #FDD5DF; border-color: #FFC2D1; }
 .serieslink--notion:hover { background: #FFA2B9; color: #fdf4f6; border-color: #FFA2B9; }
-.seriesbox--ucl .series-buttons {
-  overflow-x: auto;
-  flex-wrap: nowrap;
-}
 
 
 /* ════════════════════════════════════════
@@ -601,130 +577,31 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
    14. SECTION SUBTITLE
    ════════════════════════════════════════ */
 
-.section-subtitle {
-  font-family: 'Grenze Gotisch', serif;
-  font-size: 0.85rem;
-  color: #e8a0b4;
-  text-align: center;
-  letter-spacing: 1px;
-  margin: -4px auto 6px;
-  font-style: italic;
-}
+.section-subtitle { font-family: 'Grenze Gotisch', serif; font-size: 0.85rem; color: #e8a0b4; text-align: center; letter-spacing: 1px; margin: -4px auto 6px; font-style: italic; }
 
 
 /* ════════════════════════════════════════
    14A. FAVORITES
    ════════════════════════════════════════ */
 
-.favorites {
-  grid-row: 10 / 11;
-  grid-column: 1 / -1;
-  display: flex;
-  flex-direction: column;
-}
-.favorites .title {
-  text-align: center;
-  border-bottom: 1px solid #FFC2D180;
-  width: 90%;
-  margin: 0 auto 2px;
-  padding-left: 0;
-}
-.favorites-scroll {
-  display: grid;
-  max-width: 100%;
-  overflow-x: auto;
-  grid-auto-columns: 150px;
-  grid-template-rows: 300px;
-  grid-auto-flow: column;
-  gap: 10px;
-  padding: 15px;
-  margin: auto;
-}
-.fav-item {
-  height: 300px;
-  border-radius: 1rem;
-  border: 2px solid #FFC2D1;
-  overflow: hidden;
-  position: relative;
-}
-.fav-item img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  filter: brightness(.9);
-  display: block;
-}
-.fav-name {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  color: #5c3040;
-  font-family: 'Grenze Gotisch', serif;
-  font-size: 0.85rem;
-  font-weight: 700;
-  padding: 4px 0;
-  background: rgba(253,213,223,0.75);
-}
+.favorites { grid-row: 10 / 11; grid-column: 1 / -1; display: flex; flex-direction: column; }
+.favorites .title { text-align: center; border-bottom: 1px solid #FFC2D180; width: 90%; margin: 0 auto 2px; padding-left: 0; }
+.favorites-scroll { display: grid; max-width: 100%; overflow-x: auto; grid-auto-columns: 150px; grid-template-rows: 300px; grid-auto-flow: column; gap: 10px; padding: 15px; margin: auto; }
+.fav-item { height: 300px; border-radius: 1rem; border: 2px solid #FFC2D1; overflow: hidden; position: relative; }
+.fav-item img { height: 100%; width: 100%; object-fit: cover; filter: brightness(.9); display: block; }
+.fav-name { position: absolute; bottom: 0; left: 0; right: 0; text-align: center; color: #5c3040; font-family: 'Grenze Gotisch', serif; font-size: 0.85rem; font-weight: 700; padding: 4px 0; background: rgba(253,213,223,0.75); }
 
 
 /* ════════════════════════════════════════
-   14B. RECOMMENDED (Creators I Love)
+   14B. RECOMMENDED
    ════════════════════════════════════════ */
 
-.recommended {
-  grid-row: 11 / 12;
-  grid-column: 1 / -1;
-  display: flex;
-  flex-direction: column;
-}
-.recommended .title {
-  text-align: center;
-  border-bottom: 1px solid #FFC2D180;
-  width: 90%;
-  margin: 0 auto 2px;
-  padding-left: 0;
-}
-.recommended-scroll {
-  display: grid;
-  max-width: 100%;
-  overflow-x: auto;
-  grid-template-columns: repeat(auto-fill, 90px);
-  grid-template-rows: repeat(2, 130px);
-  grid-auto-columns: 90px;
-  grid-auto-flow: column;
-  gap: 8px;
-  padding: 15px;
-  margin: auto;
-}
-.rec-item {
-  height: 130px;
-  width: 90px;
-  border-radius: 0.75rem;
-  border: 2px solid #FFC2D1;
-  overflow: hidden;
-  position: relative;
-}
-.rec-item img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  filter: brightness(.9);
-}
-.rec-name {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  color: #5c3040;
-  font-family: 'Grenze Gotisch', serif;
-  font-size: 0.7rem;
-  font-weight: 700;
-  padding: 3px 0;
-  background: rgba(253,213,223,0.7);
-}
+.recommended { grid-row: 11 / 12; grid-column: 1 / -1; display: flex; flex-direction: column; }
+.recommended .title { text-align: center; border-bottom: 1px solid #FFC2D180; width: 90%; margin: 0 auto 2px; padding-left: 0; }
+.recommended-scroll { display: grid; max-width: 100%; overflow-x: auto; grid-template-columns: repeat(auto-fill, 90px); grid-template-rows: repeat(2, 130px); grid-auto-columns: 90px; grid-auto-flow: column; gap: 8px; padding: 15px; margin: auto; }
+.rec-item { height: 130px; width: 90px; border-radius: 0.75rem; border: 2px solid #FFC2D1; overflow: hidden; position: relative; }
+.rec-item img { height: 100%; width: 100%; object-fit: cover; filter: brightness(.9); }
+.rec-name { position: absolute; bottom: 0; left: 0; right: 0; text-align: center; color: #5c3040; font-family: 'Grenze Gotisch', serif; font-size: 0.7rem; font-weight: 700; padding: 3px 0; background: rgba(253,213,223,0.7); }
 
 
 /* ════════════════════════════════════════
@@ -742,122 +619,35 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 /* ════════════════════════════════════════
    16. BOT CARD
    ════════════════════════════════════════ */
+
 .pp-cc-wrapper:hover { transform: scale(1.05); }
 .pp-cc-wrapper { flex: 0 1 380px; margin: 15px; width: 380px; transition: all 500ms ease; height: auto; }
-
-/* Bỏ grid, dùng block bình thường */
-.css-1s5evre { 
-  background: #FAE8ED !important;
-  display: block !important;
-  border-bottom: 2px solid #FFC2D1;
-  position: relative;
-  overflow: hidden;     /* ← thêm dòng này */
-}
-
-/* Ảnh float phải */
-.css-1q7rmf0 {
-  float: right;
-  width: 170px;
-  position: relative;
-  overflow: visible;
-}
+.css-1s5evre { background: #FAE8ED !important; display: block !important; border-bottom: 2px solid #FFC2D1; position: relative; overflow: hidden; }
+.css-1q7rmf0 { float: right; width: 170px; position: relative; overflow: visible; }
 .pp-cc-avatar { border: 2px solid #FFC2D1; border-radius: 1rem; width: 100%; }
-
-/* Tên bot */
-.css-nlxhw4 {
-  margin-right: 175px;
-text-align: center;
-  min-height: 40px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding-bottom: 4px;
-}
-
-/* Description */
-.profile-character-card-description-box {
-  margin-right: 175px;
-  min-height: 200px;
- background: #FDD5DFe3;
-  border: 2px solid #FFC2D1;
-  border-radius: 1rem;
-  position: relative;
-  overflow: hidden;
-}
+.css-nlxhw4 { margin-right: 175px; text-align: center; min-height: 40px; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 4px; }
+.profile-character-card-description-box { margin-right: 175px; min-height: 200px; background: #FDD5DFe3; border: 2px solid #FFC2D1; border-radius: 1rem; position: relative; overflow: hidden; }
 .pp-cc-description { height: 100%; min-height: 200px; overflow: hidden auto; padding: 15px; padding-bottom: 28px; }
-
-/* Token count — clear float, full width, căn giữa */
-.css-1c9wmts {
-  clear: both;
-  width: 100%;
-  position: static !important;
-  bottom: unset !important;
-  right: unset !important;
-  text-align: center;
-  padding: 14px 0 6px;
-  display: block !important;
-}
-.profile-character-card-tokens-count {
-  color: #c45c7a !important;
-  -webkit-text-fill-color: #c45c7a !important;
-  opacity: 1 !important;
-  font-family: 'Grenze Gotisch', serif !important;
-  font-size: 0.85rem !important;
-  text-shadow: none !important;
-}
-/* Tags box — full width bên dưới */
-.css-k1urot {
-  position: static !important;
-  top: unset !important; right: unset !important;
-  left: unset !important; bottom: unset !important;
-  display: block !important;
-  width: calc(100% - 16px) !important;
-  background: #FDD5DFe3 !important;
-  border: 2px solid #FFC2D1 !important;
-  border-radius: 1rem !important;
-  padding: 7px 12px !important;
-  margin: 0 8px 8px !important;
-  max-height: unset !important;
-  height: auto !important;
-  overflow: visible !important;
-  box-sizing: border-box !important;
-  list-style: none !important;
-  flex-direction: unset !important;
-}
-.chakra-wrap__listitem.pp-cc-tags-wrap {
-  display: inline-flex !important;
-  padding: 0 !important;
-  margin: 2px !important;
-}
-
-.pp-cc-tags-item {
-  display: inline-flex !important;
-  align-items: center !important;
-  font-size: 0.7rem !important;
-  line-height: 1 !important;
-  border: 1.5px solid #FFC2D1 !important;
-  border-radius: 999px !important;
-  padding: 3px 9px !important;
-  background: #FEF0F4 !important;
-  color: #5c3040 !important;
-  font-family: 'DM Serif Text', serif !important;
-  width: auto !important;
-  white-space: nowrap !important;
-}
+.css-1c9wmts { clear: both; width: 100%; position: static !important; bottom: unset !important; right: unset !important; text-align: center; padding: 14px 0 6px; display: block !important; }
+.profile-character-card-tokens-count { color: #c45c7a !important; -webkit-text-fill-color: #c45c7a !important; opacity: 1 !important; font-family: 'Grenze Gotisch', serif !important; font-size: 0.85rem !important; text-shadow: none !important; }
+.css-k1urot { position: static !important; top: unset !important; right: unset !important; left: unset !important; bottom: unset !important; display: block !important; width: calc(100% - 16px) !important; background: #FDD5DFe3 !important; border: 2px solid #FFC2D1 !important; border-radius: 1rem !important; padding: 7px 12px !important; margin: 0 8px 8px !important; max-height: unset !important; height: auto !important; overflow: visible !important; box-sizing: border-box !important; list-style: none !important; flex-direction: unset !important; }
+.chakra-wrap__listitem.pp-cc-tags-wrap { display: inline-flex !important; padding: 0 !important; margin: 2px !important; }
+.pp-cc-tags-item { display: inline-flex !important; align-items: center !important; font-size: 0.7rem !important; line-height: 1 !important; border: 1.5px solid #FFC2D1 !important; border-radius: 999px !important; padding: 3px 9px !important; background: #FEF0F4 !important; color: #5c3040 !important; font-family: 'DM Serif Text', serif !important; width: auto !important; white-space: nowrap !important; }
 .pp-cc-tags-item::after { content: "" !important; }
-
 .pp-tag-limitless { display: inline-flex !important; }
 .pp-cc-tags-wrap-custom .pp-cc-tags-item { display: inline !important; }
 .css-k1urot a { display: inline !important; text-decoration: none !important; color: inherit !important; }
-
 .css-1s5evre * { color: #5c3040; font-family: 'Cardo', serif; }
 .css-1s5evre:after { content: ""; clear: both; display: table; }
 .pp-cc-name { color: #c45c7a !important; font-family: 'Berkshire Swash', serif !important; text-shadow: none; font-size: 0.85rem; }
 .profile-character-card-stats-box, .pp-cc-ribbon { left: unset; right: -12%; display: flex; justify-content: center; top: 5px; width: 100%; opacity: .8; }
-
+._content_1chl9_11 { background: transparent !important; box-shadow: transparent !important; clip-path: none !important; }
+._ribbon_1chl9_1 { filter: none !important; }
+.pp-cc-tags::before { content: 'Tags‪‪'; display: block; font-family: 'Berkshire Swash', serif; font-size: 1rem; font-weight: 500; color: #c45c7a; text-align: right; padding-right: 20px; margin-bottom: -6.5px; letter-spacing: 1px; }
 .profile-character-card-description-box::after { content: "✦ Stand Alone"; position: absolute; bottom: 0; left: 0; right: 0; text-align: center; font-family: 'Grenze Gotisch', serif; font-size: 0.7rem; font-weight: 700; color: #ffa5b1; background: #FAE8ED; border-top: 1px solid #FFB7CE; padding: 3px 8px; letter-spacing: 1px; pointer-events: none; z-index: 5; }
 .pp-cc-wrapper:has(.pp-tag-midnightstatic) .profile-character-card-description-box::after { content: "⟡ Midnight Static"; background: #e8e0f5; border-color: #c4aee8; color: #6b4fa0; }
 .pp-cc-wrapper:has(.pp-tag-uclfiction) .profile-character-card-description-box::after { content: "★ University College London"; background: #ddeeff; border-color: #a8cce8; color: #3a6a99; }
+
 
 /* ════════════════════════════════════════
    17. PAGINATION & FILTER
@@ -1001,7 +791,6 @@ text-align: center;
    21. DARK ROSE MODE
    ════════════════════════════════════════ */
 
-/* Background */
 body:has(.wine-toggle[open]) { background-color: #1a0810 !important; }
 body:has(.wine-toggle[open]) #root,
 body:has(.wine-toggle[open]) .pp-page-background,
@@ -1010,8 +799,6 @@ body:has(.wine-toggle[open])::before,
 body:has(.wine-toggle[open])::after { display: none !important; content: none !important; }
 body:has(.wine-toggle[open]) .pp-page-background::after { background: #1a0810 !important; }
 body:has(.wine-toggle[open]) .profile-info-stack { background: #1a0810 !important; }
-
-/* Top bar */
 body:has(.wine-toggle[open]) .pp-top-bar { background: #2e0e18 !important; border-bottom: 2px solid #7a2035 !important; }
 body:has(.wine-toggle[open]) .pp-top-bar-search { border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) #search-input { color: #f2e0e6 !important; caret-color: #f2e0e6 !important; }
@@ -1027,16 +814,12 @@ body:has(.wine-toggle[open]) .pp-top-bar-app-menu-list-item * { color: #f2e0e6 !
 body:has(.wine-toggle[open]) .pp-top-bar-back-button > p::before,
 body:has(.wine-toggle[open]) .pp-top-bar-back-button > p::after { color: #c47080 !important; }
 body:has(.wine-toggle[open]) .pp-top-bar-title::after { color: #c47080 !important; }
-
-/* Mobile nav bar */
 body:has(.wine-toggle[open]) .pp-mnb-container { background: #2e0e18 !important; border-top: 2px solid #7a2035 !important; }
 body:has(.wine-toggle[open]) .pp-mnb-container svg { color: #c47080 !important; fill: #c47080 !important; }
 body:has(.wine-toggle[open]) .pp-mnb-container * { color: #c47080 !important; }
 body:has(.wine-toggle[open]) .pp-mnb-container a { color: #c47080 !important; }
 body:has(.wine-toggle[open]) .pp-mnb-container a svg,
 body:has(.wine-toggle[open]) .pp-mnb-container button svg { color: #c47080 !important; fill: #c47080 !important; stroke: #c47080 !important; }
-
-/* Notifications */
 body:has(.wine-toggle[open]) [class*="notificationsButton"] { color: #c47080 !important; }
 body:has(.wine-toggle[open]) [class*="notificationsButton"]:hover { background: #7a203540 !important; }
 body:has(.wine-toggle[open]) [class*="notificationIcon"] { color: #c47080 !important; }
@@ -1055,8 +838,6 @@ body:has(.wine-toggle[open]) [class*="_body_"] { color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) [class*="_timestamp_"] { color: #a02040 !important; }
 body:has(.wine-toggle[open]) [class*="archiveButton"] { background: #7a2035 !important; color: #f2e0e6 !important; border-color: #a02040 !important; }
 body:has(.wine-toggle[open]) [class*="unreadIndicator"]::after { color: #c47080 !important; }
-
-/* Modal */
 body:has(.wine-toggle[open]) [class*="modalOverlay"] { background: #2e0e1830 !important; }
 body:has(.wine-toggle[open]) [class*="modalContent"] { background: #2e0e18 !important; border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) [class*="modalHeader"] { border-color: #7a2035 !important; }
@@ -1065,8 +846,6 @@ body:has(.wine-toggle[open]) [class*="modalClose"] { background: #7a2035 !import
 body:has(.wine-toggle[open]) [class*="modalClose"]:hover { background: #a02040 !important; }
 body:has(.wine-toggle[open]) [class*="modalContent"] [class*="modalFooter"] button { background: #7a2035 !important; color: #f2e0e6 !important; border-color: #a02040 !important; }
 body:has(.wine-toggle[open]) [class*="modalContent"] [class*="modalFooter"] button:hover { background: #a02040 !important; }
-
-/* Profile / identity */
 body:has(.wine-toggle[open]) .pp-uc-avatar-container::after { color: #f2e0e6 !important; text-shadow: #a02040 1px 0 0, #a02040 0.54px 0.84px 0, #a02040 -0.42px 0.91px 0, #a02040 -0.99px 0.14px 0 !important; }
 body:has(.wine-toggle[open]) .pp-uc-avatar { border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .pp-uc-followers-count,
@@ -1081,36 +860,27 @@ body:has(.wine-toggle[open]) #menu-list-public-profile-block-menu { background: 
 body:has(.wine-toggle[open]) .css-jdhqy4 > div { background: #2e0e18 !important; border-color: #7a2035 !important; color: #c47080 !important; }
 body:has(.wine-toggle[open]) .css-9qctsi button,
 body:has(.wine-toggle[open]) .css-17i40fo { background: #2e0e18 !important; }
-
-/* Banner */
 body:has(.wine-toggle[open]) .manta-banner::after { background: linear-gradient(to bottom, transparent 0%, #1a0810 100%) !important; }
 body:has(.wine-toggle[open]) .manta-banner::before { background: linear-gradient(to right, rgba(26,8,16,0.8) 0%, rgba(26,8,16,0.35) 40%, rgba(26,8,16,0.1) 55%, rgba(26,8,16,0) 75%) !important; }
-
-/* Status / buttons / about */
 body:has(.wine-toggle[open]) .status-box .status-label { background: #2e0e18 !important; border-color: #7a2035 !important; color: #c47080 !important; }
 body:has(.wine-toggle[open]) .status-box .status-text { background: #2e0e18e3 !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .mantalink { background: #2e0e18e3 !important; border-color: #7a2035 !important; color: #c47080 !important; }
 body:has(.wine-toggle[open]) .mantalink:hover { background: #7a2035 !important; border-color: #a02040 !important; color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .title { color: #c47080 !important; }
 body:has(.wine-toggle[open]) .aboutcontent { background: #2e0e18e3 !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
-
-/* Section subtitle */
 body:has(.wine-toggle[open]) .section-subtitle { color: #a06070 !important; }
-
-/* Series */
 body:has(.wine-toggle[open]) .seriesheading { color: #c47080 !important; border-color: #7a2035 !important; }
-body:has(.wine-toggle[open]) .seriesbox { background: #7a2035 !important; border-color: #a02040 !important; }
+body:has(.wine-toggle[open]) .seriesbox { background: #7a2035 !important; border-color: #a02040 !important; transition: none !important; }
 body:has(.wine-toggle[open]) .overlay { background: #2e0e18ee !important; }
 body:has(.wine-toggle[open]) .seriestitle { color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .info { color: #f2e0e6 !important; border-color: #7a2035 !important; }
+body:has(.wine-toggle[open]) .series-logo { border-color: #7a2035 !important; background: #2e0e18 !important; }
 body:has(.wine-toggle[open]) .serieslink--hashtag,
 body:has(.wine-toggle[open]) .serieslink--card,
 body:has(.wine-toggle[open]) .serieslink--notion { background: #3d1020 !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .serieslink--hashtag:hover,
 body:has(.wine-toggle[open]) .serieslink--card:hover,
 body:has(.wine-toggle[open]) .serieslink--notion:hover { background: #7a2035 !important; border-color: #a02040 !important; }
-
-/* Dropdowns */
 body:has(.wine-toggle[open]) .box .title { border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .dd { border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .dd summary { background: #2e0e18e3 !important; color: #c47080 !important; }
@@ -1119,44 +889,27 @@ body:has(.wine-toggle[open]) .dd[open] > summary { border-color: #7a2035 !import
 body:has(.wine-toggle[open]) .dd-panel { background: #2e0e18e3 !important; color: #f2e0e6 !important; scrollbar-color: #7a2035 transparent !important; }
 body:has(.wine-toggle[open]) .dd-panel::-webkit-scrollbar-thumb { background: #7a2035 !important; }
 body:has(.wine-toggle[open]) .dd-panel::-webkit-scrollbar-thumb:hover { background: #a02040 !important; }
-
-/* Favorites */
 body:has(.wine-toggle[open]) .favorites .title { border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .fav-item { border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .fav-name { background: rgba(46,14,24,0.75) !important; color: #f2e0e6 !important; }
-
-/* Recommended */
 body:has(.wine-toggle[open]) .recommended .title { border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .rec-item { border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .rec-name { background: rgba(46,14,24,0.7) !important; color: #f2e0e6 !important; }
-
-/* Gallery */
 body:has(.wine-toggle[open]) .talent .title { border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .talent-item { border-color: #7a2035 !important; }
-
-/* Bot card */
-body:has(.wine-toggle[open]) .css-1s5evre { 
-  background: #190810 !important;
-  border-color: #7a2035 !important;
-}
-body:has(.wine-toggle[open]) .pp-cc-avatar {
-border-color: #7a2035 !important; }
+body:has(.wine-toggle[open]) .css-1s5evre { background: #190810 !important; border-color: #7a2035 !important; }
+body:has(.wine-toggle[open]) .pp-cc-avatar { border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .profile-character-card-description-box { background: #2e0e18e3 !important; border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .css-k1urot { background: #2e0e18e3 !important; border-color: #7a2035 !important; }
 body:has(.wine-toggle[open]) .css-1s5evre * { color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .pp-cc-name { color: #c47080 !important; }
 body:has(.wine-toggle[open]) .css-1c9wmts .pp-cc-tokens-count,
-body:has(.wine-toggle[open]) .profile-character-card-tokens-count {
-  color: #c47080 !important;
-  -webkit-text-fill-color: #c47080 !important;
-  text-shadow: none !important;
-}
+body:has(.wine-toggle[open]) .profile-character-card-tokens-count { color: #c47080 !important; -webkit-text-fill-color: #c47080 !important; text-shadow: none !important; }
 body:has(.wine-toggle[open]) .profile-character-card-description-box::after { background: #2e0e18 !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .pp-cc-wrapper:has(.pp-tag-midnightstatic) .profile-character-card-description-box::after { background: #1a0828 !important; border-color: #5a3570 !important; color: #d8b8f0 !important; }
 body:has(.wine-toggle[open]) .pp-cc-wrapper:has(.pp-tag-uclfiction) .profile-character-card-description-box::after { background: #0e1828 !important; border-color: #304870 !important; color: #b8c8e8 !important; }
-body:has(.wine-toggle[open]) .pp-cc-tags-item { background: #5d2030  !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
-
-/* Pagination & filter */
+body:has(.wine-toggle[open]) .pp-cc-tags-item { background: #5d2030 !important; border-color: #7a2035 !important; color: #f2e0e6 !important; }
+body:has(.wine-toggle[open]) ._ribbon_1chl9_1 { filter: none !important; }
 body:has(.wine-toggle[open]) .pp-tabs-button { color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .pp-pg-prev-button svg,
 body:has(.wine-toggle[open]) .pp-pg-next-button svg { color: #c47080 !important; }
@@ -1193,8 +946,6 @@ body:has(.wine-toggle[open]) [class*="_collapsedContainer_"] [class*="_tag_"]::f
 body:has(.wine-toggle[open]) [class*="_collapsedContainer_"] [class*="_tagSelected_"] { background: #a02040 !important; }
 body:has(.wine-toggle[open]) [class*="_collapsedContainer_"] [class*="_tag_"]:not([class*="_tagSelected_"]):hover { background: #7a2035 !important; }
 body:has(.wine-toggle[open]) [class*="_motionDiv_"][class*="_divider_"] { color: #7a2035 !important; }
-
-/* Skip / toggle / credits */
 body:has(.wine-toggle[open]) .skip { background: #2e0e18 !important; border-color: #7a2035 !important; color: #c47080 !important; }
 body:has(.wine-toggle[open]) .skip:hover { background: #7a2035 !important; color: #f2e0e6 !important; }
 body:has(.wine-toggle[open]) .color-toggle { background: #2e0e18 !important; border-color: #7a2035 !important; color: #c47080 !important; }
