@@ -70,6 +70,36 @@
     </div>
   </div>
 </div>
+<div class="seriesbox" tabindex="0">
+  <img src="https://files.catbox.moe/y28rae.webp" alt="seriesbanner" class="series-banner">
+  <div class="overlay">
+    <img src="URL_LOGO" alt="logo" class="series-logo">
+    <div class="seriestitle">Midnight Static</div>
+    <div class="info">
+      <p>Content ...</p>
+    </div>
+    <div class="series-buttons">
+      <a href="LINK" class="serieslink serieslink--hashtag">＃ Hashtag</a>
+      <a href="LINK" class="serieslink serieslink--card">✦ Card</a>
+      <a href="LINK" class="serieslink serieslink--notion">◈ Notion</a>
+    </div>
+  </div>
+</div>
+<div class="seriesbox" tabindex="0">
+  <img src="https://files.catbox.moe/y28rae.webp" alt="seriesbanner" class="series-banner">
+  <div class="overlay">
+    <img src="URL_LOGO" alt="logo" class="series-logo">
+    <div class="seriestitle">Midnight Static</div>
+    <div class="info">
+      <p>Content ...</p>
+    </div>
+    <div class="series-buttons">
+      <a href="LINK" class="serieslink serieslink--hashtag">＃ Hashtag</a>
+      <a href="LINK" class="serieslink serieslink--card">✦ Card</a>
+      <a href="LINK" class="serieslink serieslink--notion">◈ Notion</a>
+    </div>
+  </div>
+</div>
 </div>  
 </article>  
 
@@ -449,12 +479,12 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .scroll { display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 12px; padding: 1rem; box-sizing: border-box; overflow-x: auto; width: 100%; }
 
 .seriesbox {
-  flex: 0 0 300px;
+  flex: 0 0 350px;
   height: auto;
   background: #FDD5DF;
   border: 2px solid #FFC2D1;
   box-sizing: border-box;
-  border-radius: 0.75rem;
+  border-radius: 0.85rem;
   overflow: hidden;
   position: relative;
   font-family: Cardo;
@@ -464,7 +494,7 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 
 .seriesbox img.series-banner {
   width: 100%;
-  height: 130px;
+  height: 160px;
   object-fit: cover;
   display: block;
   flex-shrink: 0;
@@ -493,19 +523,19 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 }
 
 .series-logo {
-  width: 60px !important;
-  height: 60px !important;
+  width: 80px !important;
+  height: 80px !important;
   object-fit: cover !important;
   border-radius: 50% !important;
   border: 2px solid #FFC2D1 !important;
   display: block !important;
-  margin-top: -30px !important;
-  margin-bottom: 6px !important;
+  margin-top: -40px !important;
+  margin-bottom: 7px !important;
   background: #FDD5DF !important;
 }
 
 .seriestitle {
-  font-size: 0.78rem;
+  font-size: 0.80rem;
   font-weight: bold;
   color: #FFA2B9;
   line-height: 1.2;
@@ -521,10 +551,12 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   border: 1px solid #FFC2D160;
   color: #5c3040;
   font-family: 'Cardo', serif;
-  max-height: 90px;
-  -webkit-overflow-scrolling: touch;
+  max-height: none !important;
+  overflow-y: visible !important;
+  -webkit-overflow-scrolling: auto !important;
 }
 
+}
 .series-buttons {
   display: flex;
   flex-direction: row;
@@ -553,6 +585,9 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .serieslink--notion { color: #5c3040; background: #FDD5DF; border-color: #FFC2D1; }
 .serieslink--notion:hover { background: #FFA2B9; color: #fdf4f6; border-color: #FFA2B9; }
 
+.overlay {
+  flex: 1;
+}
 
 /* ════════════════════════════════════════
    13. DROPDOWNS
@@ -643,7 +678,7 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .profile-character-card-stats-box, .pp-cc-ribbon { left: unset; right: -12%; display: flex; justify-content: center; top: 5px; width: 100%; opacity: .8; }
 ._content_1chl9_11 { background: transparent !important; box-shadow: transparent !important; clip-path: none !important; }
 ._ribbon_1chl9_1 { filter: none !important; }
-.pp-cc-tags::before { content: 'Tags‪‪'; display: block; font-family: 'Berkshire Swash', serif; font-size: 1rem; font-weight: 500; color: #c45c7a; text-align: right; padding-right: 20px; margin-bottom: -6.5px; letter-spacing: 1px; }
+.pp-cc-tags::before { content: 'Come and enjoy!'; display: block; font-family: 'Pacifico', serif; font-size: 1rem; font-weight: 400; color: #c45c7a; text-align: right; padding-right: 20px; margin-bottom: -5.5px; letter-spacing: 1px; }
 .profile-character-card-description-box::after { content: "✦ Stand Alone"; position: absolute; bottom: 0; left: 0; right: 0; text-align: center; font-family: 'Grenze Gotisch', serif; font-size: 0.7rem; font-weight: 700; color: #ffa5b1; background: #FAE8ED; border-top: 1px solid #FFB7CE; padding: 3px 8px; letter-spacing: 1px; pointer-events: none; z-index: 5; }
 .pp-cc-wrapper:has(.pp-tag-midnightstatic) .profile-character-card-description-box::after { content: "⟡ Midnight Static"; background: #e8e0f5; border-color: #c4aee8; color: #6b4fa0; }
 .pp-cc-wrapper:has(.pp-tag-uclfiction) .profile-character-card-description-box::after { content: "★ University College London"; background: #ddeeff; border-color: #a8cce8; color: #3a6a99; }
