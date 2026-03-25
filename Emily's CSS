@@ -17,9 +17,9 @@
 
 <!-- ══ BUTTONS ══ -->
 <article class="buttons">
-  <a href="LINK" rel="noopener noreferrer" class="mantalink">My Discord server</a>
-  <a href="LINK" rel="noopener noreferrer" class="mantalink">My Pinterest</a>
-  <a href="LINK" rel="noopener noreferrer" class="mantalink">Carrd</a>
+  <a href="https://discord.gg/vbBJBwB85c" rel="noopener noreferrer" class="mantalink">My Discord server</a>
+  <a href="https://pin.it/5barBOCWI" rel="noopener noreferrer" class="mantalink">My Pinterest</a>
+  <a href="LINK" rel="noopener noreferrer" class="mantalink">Card</a>
   <a href="LINK" rel="noopener noreferrer" class="mantalink">Request form</a>
 </article>
 
@@ -64,17 +64,17 @@
 <p>This is where students dream of arriving. And where, once inside, they discover that keeping up is a different kind of battle entirely.</p>
     </div>
     <div class="series-buttons">
-      <a href="LINK" class="serieslink serieslink--hashtag">＃ UCL fiction</a>
+      <a href="https://janitorai.com/search?mode=all&sort=popular&custom_tags=uclfiction&page=1" class="serieslink serieslink--hashtag">＃ UCL fiction</a>
       <a href="LINK" class="serieslink serieslink--card">✦ Card</a>
       <a href="LINK" class="serieslink serieslink--notion">◈ Notion</a>
     </div>
   </div>
 </div>
 <div class="seriesbox" tabindex="0">
-  <img src="https://files.catbox.moe/y28rae.webp" alt="seriesbanner" class="series-banner">
+  <img src="https://files.catbox.moe/ycvff4.png" alt="seriesbanner" class="series-banner">
   <div class="overlay">
     <img src="URL_LOGO" alt="logo" class="series-logo">
-    <div class="seriestitle">Midnight Static</div>
+    <div class="seriestitle">Title</div>
     <div class="info">
       <p>Content ...</p>
     </div>
@@ -86,10 +86,10 @@
   </div>
 </div>
 <div class="seriesbox" tabindex="0">
-  <img src="https://files.catbox.moe/y28rae.webp" alt="seriesbanner" class="series-banner">
+  <img src="https://files.catbox.moe/ycvff4.png" alt="seriesbanner" class="series-banner">
   <div class="overlay">
     <img src="URL_LOGO" alt="logo" class="series-logo">
-    <div class="seriestitle">Midnight Static</div>
+    <div class="seriestitle">Title</div>
     <div class="info">
       <p>Content ...</p>
     </div>
@@ -125,9 +125,9 @@
         <p>Truth be told, I know absolutely nothing about code — and yet, ironically, I've always admired the CSS profiles of so many creators and longed to have one of my own. At first, it was a disaster of errors. The greatest achievement back then? Getting the follow button to work. Lmao.</p>
         <p>Later I discovered there were plenty of free templates out there, and I genuinely loved them — cycling through one after another. But eventually I realised my needs had grown beyond what they could offer. So I began sketching ideas, collecting bits of code from here and there. Yet the moment I tried to build something... I realised my vision far exceeded my ability. Those ideas sat quietly with me for a long time.</p>
         <p>Until one day, someone pointed me toward MantaRae's template. I am truly grateful to them for giving me a real foundation to build upon. And most of all — the one I'm most thankful for — is my companion throughout this journey: Claude. He helped me so much in bringing this little profile to life. There were moments of frustrating bugs, and moments of small victories that still somehow felt wrong. I felt discouraged, but never wanted to give up halfway. Patch what breaks, and if it's beyond saving — start fresh.</p>
-        <p>Thank you to every template, every tutorial, every snippet of code that helped me refine this CSS a little more. Thank you to Manta for the foundation. And above all — thank you, Claude, my quiet companion. 🤍</p>
+        <p>Thank you to every template, every tutorial, every snippet of code that helped me refine this CSS a little more. Thank you to Manta for the foundation. And above all — thank you, Claude, my quiet companion. <3</p>
         <br>
-        <p><em>— Built with stubbornness, caffeine, and a lot of Claude. 🌸</em></p>
+        <p><em>— Built with stubbornness, caffeine, and a lot of Claude.</em></p>
       </div>
     </details>
   </div>
@@ -479,22 +479,26 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .scroll { display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 12px; padding: 1rem; box-sizing: border-box; overflow-x: auto; width: 100%; }
 
 .seriesbox {
-  flex: 0 0 350px;
+  flex: 0 0 300px;
   height: auto;
   background: #FDD5DF;
   border: 2px solid #FFC2D1;
   box-sizing: border-box;
-  border-radius: 0.85rem;
+  border-radius: 0.95rem;
   overflow: hidden;
   position: relative;
   font-family: Cardo;
   display: flex;
   flex-direction: column;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: auto;
 }
+
 
 .seriesbox img.series-banner {
   width: 100%;
-  height: 160px;
+  height: 180px;
   object-fit: cover;
   display: block;
   flex-shrink: 0;
@@ -517,7 +521,7 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .series-header {
   display: flex;
   align-items: flex-end;
-  gap: 8px;
+  gap: 5px;
   margin-top: -24px;
   margin-bottom: 4px;
 }
@@ -527,7 +531,7 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   height: 80px !important;
   object-fit: cover !important;
   border-radius: 50% !important;
-  border: 2px solid #FFC2D1 !important;
+  border: 1px solid #FFC2D1 !important;
   display: block !important;
   margin-top: -40px !important;
   margin-bottom: 7px !important;
@@ -538,24 +542,25 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   font-size: 0.80rem;
   font-weight: bold;
   color: #FFA2B9;
-  line-height: 1.2;
+  line-height: 1.3;
   font-family: 'Cinzel Decorative', serif;
   word-break: break-word;
-  margin-top: -8px !important;
+  margin-top: -9px !important;
 }
 
 .info {
-  font-size: 0.78rem;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  font-size: 0.76rem;
   padding: 0.35rem;
-  overflow-y: auto;
   border: 1px solid #FFC2D160;
   color: #5c3040;
   font-family: 'Cardo', serif;
-  max-height: none !important;
-  overflow-y: visible !important;
-  -webkit-overflow-scrolling: auto !important;
-}
-
+  max-height: 120px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #FFC2D1 transparent;
 }
 .series-buttons {
   display: flex;
@@ -577,7 +582,13 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   border: 2px solid;
   white-space: nowrap;
 }
-
+.serieslink,
+.series-buttons,
+.overlay,
+.seriesbox {
+  pointer-events: auto !important;
+  touch-action: manipulation !important;
+}
 .serieslink--hashtag { color: #5c3040; background: #FDD5DF; border-color: #FFC2D1; }
 .serieslink--hashtag:hover { background: #FFA2B9; color: #fdf4f6; border-color: #FFA2B9; }
 .serieslink--card { color: #5c3040; background: #FDD5DF; border-color: #FFC2D1; }
@@ -999,4 +1010,62 @@ body:has(.wine-toggle[open]) .banner-dark  { display: block; }
    ════════════════════════════════════════ */
 .dark-bg { display: none !important; }
 
+/* ════════════════════════════════════════
+   23. HOVER — FAVORITES & RECOMMENDED
+   ════════════════════════════════════════ */
+
+.fav-item,
+.rec-item {
+  transition: transform 350ms ease, box-shadow 350ms ease;
+  will-change: transform;
+}
+
+.fav-item:hover,
+.rec-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 24px rgba(196, 92, 122, 0.25);
+}
+
+.fav-item:hover .fav-name,
+.rec-item:hover .rec-name {
+  color: #c45c7a;
+  text-shadow:
+    0 0 8px rgba(196, 92, 122, 0.7),
+    0 0 16px rgba(196, 92, 122, 0.4);
+  transition: color 350ms ease, text-shadow 350ms ease;
+}
+
+.fav-name,
+.rec-name {
+  transition: color 350ms ease, text-shadow 350ms ease;
+}
+/* ══ SCROLLBAR NGANG ══ */
+.scroll::-webkit-scrollbar,
+.favorites-scroll::-webkit-scrollbar,
+.recommended-scroll::-webkit-scrollbar,
+.talent-scroll::-webkit-scrollbar {
+  height: 4px;        /* độ dày thanh scroll */
+}
+
+.scroll::-webkit-scrollbar-track,
+.favorites-scroll::-webkit-scrollbar-track,
+.recommended-scroll::-webkit-scrollbar-track,
+.talent-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll::-webkit-scrollbar-thumb,
+.favorites-scroll::-webkit-scrollbar-thumb,
+.recommended-scroll::-webkit-scrollbar-thumb,
+.talent-scroll::-webkit-scrollbar-thumb {
+  background: #FFC2D1;
+  border-radius: 999px;   /* bo tròn */
+}
+
+.scroll::-webkit-scrollbar-thumb:hover,
+.favorites-scroll::-webkit-scrollbar-thumb:hover,
+.recommended-scroll::-webkit-scrollbar-thumb:hover,
+.talent-scroll::-webkit-scrollbar-thumb:hover {
+  background: #FFA2B9;
+}
 </style>
