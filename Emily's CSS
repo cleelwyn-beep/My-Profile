@@ -5,9 +5,14 @@
 
 <!-- ══ BANNER ══ -->
 <div class="manta-banner">
+  <div class="manta-credit">
+    <a href="https://janitorai.com/profiles/25241a53-d996-45de-862d-f2ca87863b26_profile-of-manta-rae" rel="noopener">Base By RaeRae</a>
+    &nbsp;·&nbsp; Redesigned By Emily And Claude
+  </div>
   <img class="banner-light" src="https://i.postimg.cc/nLBQGcLH/0f4b2daf1ccfc7589ba45b24b96d6205.jpg">
   <img class="banner-dark" src="https://i.postimg.cc/WzF9ThMw/eedb054f2de3e991adc956b5b6b8e7f6.jpg">
 </div>
+<div class="right-top">
 
 <!-- ══ STATUS ══ -->
 <article class="status-box">
@@ -22,6 +27,8 @@
   <a href="LINK" rel="noopener noreferrer" class="mantalink">Card</a>
   <a href="LINK" rel="noopener noreferrer" class="mantalink">Request form</a>
 </article>
+
+</div>
 
 <!-- ══ ABOUT ══ -->
 <article class="about">
@@ -436,7 +443,7 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
    8. BANNER
    ════════════════════════════════════════ */
 
-.manta-banner { grid-area: 1 / 1 / 3 / -1; position: relative; overflow: hidden; }
+.manta-banner { grid-area: 1 / 1 / 3 / -1; position: relative; overflow: hidden; margin-top: -80px; }
 .manta-banner img { height: 100%; width: 100%; object-fit: cover; display: block; }
 .manta-banner::after { content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 70%; background: linear-gradient(to bottom, transparent 0%, #FAE8ED 100%); pointer-events: none; }
 .manta-banner::before { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to right, rgba(250,232,237,0.7) 0%, rgba(250,232,237,0.35) 40%, rgba(250,232,237,0.1) 55%, rgba(250,232,237,0) 75%); }
@@ -499,9 +506,14 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .seriesbox img.series-banner {
   width: 100%;
   height: 180px;
-  object-fit: cover;
+  border-bottom: 1px solid #FFC2D1;
+object-fit: cover;
   display: block;
   flex-shrink: 0;
+}
+.series-banner {
+  -webkit-mask-image: linear-gradient(to bottom,  60%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 }
 
 .overlay {
@@ -595,7 +607,10 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .serieslink--card:hover { background: #FFA2B9; color: #fdf4f6; border-color: #FFA2B9; }
 .serieslink--notion { color: #5c3040; background: #FDD5DF; border-color: #FFC2D1; }
 .serieslink--notion:hover { background: #FFA2B9; color: #fdf4f6; border-color: #FFA2B9; }
-
+.overlay {
+  border: none !important;
+border-radius: 0rem !important;
+}
 .overlay {
   flex: 1;
 }
@@ -773,14 +788,13 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 .color-toggle:hover { color: #2a1a1e; background: #FFB2C5; }
 .wine-toggle { display: contents; }
 .wine-toggle > summary { list-style: none; }
-.manta-credit { grid-row: 1 / 2; grid-column: 1 / -1; font-size: 0.6rem; font-weight: 300; letter-spacing: 1px; opacity: 0.8; z-index: 99; text-align: center; font-family: cardo; color: #c45c7a; }
+.manta-credit { position: absolute; top: 4px; left: 0; right: 0; z-index: 99; text-align: center; font-size: 0.6rem; font-weight: 300; letter-spacing: 1px; opacity: 0.8; font-family: cardo; color: #c45c7a; }
 .manta-credit a { color: inherit; text-decoration: none; transition: all 700ms ease; }
 
 
 /* ════════════════════════════════════════
    19. RESPONSIVE — DESKTOP (≥900px)
    ════════════════════════════════════════ */
-
 @media only screen and (min-width: 900px) {
   .profile-info-stack { grid-template-columns: 320px 1fr; grid-template-rows: 320px auto auto auto auto auto auto; grid-auto-rows: auto; }
   .manta-banner { grid-area: 1 / 1 / 2 / -1; height: 320px; }
@@ -794,13 +808,13 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   .css-hjkukh { grid-area: unset; margin: 4px auto; }
   .profile-about-me+div { grid-row: 5 / 6; grid-column: 1 / 2; position: static; width: 100%; padding: 8px 20px; pointer-events: auto; }
   .profile-about-me+div>* { justify-content: center; }
-  .status-box { grid-area: 2 / 2 / 3 / 3; width: 90%; margin: 20px auto 10px; align-self: start; }
-  .buttons { grid-area: 3 / 2 / 4 / 3; justify-content: flex-start; padding: 5px 5%; }
-  .about { grid-area: 4 / 2 / 5 / 3; align-items: flex-start; padding: 10px 5%; }
+  .status-box { grid-area: 2 / 2 / 3 / 3; width: 90%; margin: 60px 5% 0; align-self: start; }
+  .buttons { grid-area: 3 / 2 / 4 / 3; justify-content: flex-start; padding: 8px 5% 0; }
+  .about { grid-area: 4 / 2 / 5 / 3; align-items: flex-start; padding: 8px 5% 0; }
   .aboutcontent { width: 100%; margin-bottom: -1.3rem; }
   .series    { grid-row: 6 / 7  !important; grid-column: 1 / -1 !important; }
   .box       { grid-row: 7 / 8  !important; grid-column: 1 / -1 !important; }
-  .dropdowns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; min-width: 0; }
+.dropdowns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; min-width: 0; align-items: start; }
   .favorites { grid-row: 8 / 9  !important; grid-column: 1 / -1 !important; }
   .recommended { grid-row: 9 / 10 !important; grid-column: 1 / -1 !important; }
   .talent    { grid-row: 10/ 11 !important; grid-column: 1 / -1 !important; }
@@ -821,8 +835,9 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   .profile-info-stack-inner-flex { order: 3; display: flex; justify-content: center; }
   .css-hjkukh { order: 4; margin: 4px auto 0; }
   .profile-about-me + div { grid-column: 1 / -1; grid-row: 4 / 5; position: static; }
-  .status-box  { grid-row: 6 / 7;   grid-column: 1 / -1; width: 90%; margin: 20px auto 10px; }
-  .buttons     { grid-row: 7 / 8;   grid-column: 1 / -1; }
+.status-box { grid-area: 2 / 2 / 3 / 3; width: 90%; margin: 20px 5% 0; align-self: start; }
+.buttons { grid-area: 2 / 2 / 3 / 3; justify-content: flex-start; padding: 0 5%; align-self: end; }
+.about { grid-area: 3 / 2 / 5 / 3; align-items: flex-start; padding: 8px 5% 0; align-self: start; }
   .about       { grid-row: 8 / 9;   grid-column: 1 / -1; }
   .aboutcontent { width: 95%; }
   .series      { grid-row: 9 / 10;  grid-column: 1 / -1; }
@@ -1004,7 +1019,9 @@ body:has(.wine-toggle[open]) .chakra-spinner { color: #c47080 !important; }
 .banner-dark { display: none; }
 body:has(.wine-toggle[open]) .banner-light { display: none; }
 body:has(.wine-toggle[open]) .banner-dark  { display: block; }
-
+body:has(.wine-toggle[open]) .overlay {
+  border: none !important;
+}
 /* ════════════════════════════════════════
    22. HIDE DARK BG
    ════════════════════════════════════════ */
@@ -1044,7 +1061,7 @@ body:has(.wine-toggle[open]) .banner-dark  { display: block; }
 .favorites-scroll::-webkit-scrollbar,
 .recommended-scroll::-webkit-scrollbar,
 .talent-scroll::-webkit-scrollbar {
-  height: 4px;        /* độ dày thanh scroll */
+  height: 3px;        /* độ dày thanh scroll */
 }
 
 .scroll::-webkit-scrollbar-track,
@@ -1067,5 +1084,11 @@ body:has(.wine-toggle[open]) .banner-dark  { display: block; }
 .recommended-scroll::-webkit-scrollbar-thumb:hover,
 .talent-scroll::-webkit-scrollbar-thumb:hover {
   background: #FFA2B9;
+}
+@media only screen and (min-width: 900px) {
+  .right-top { grid-area: 2 / 2 / 3 / 3; display: flex; flex-direction: column; gap: 12px; padding: 60px 5% 0; align-self: start; }
+  .status-box { width: 100%; margin: 0; grid-area: unset !important; }
+  .buttons { padding: 0; grid-area: unset !important; }
+  .about { grid-area: 3 / 2 / 5 / 3; align-items: flex-start; padding: 4px 5% 0; align-self: start; }
 }
 </style>
