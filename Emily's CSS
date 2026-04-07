@@ -10,12 +10,6 @@
   <img class="banner-light" src="https://i.postimg.cc/nLBQGcLH/0f4b2daf1ccfc7589ba45b24b96d6205.jpg">
   <img class="banner-dark" src="https://i.postimg.cc/WzF9ThMw/eedb054f2de3e991adc956b5b6b8e7f6.jpg">
 </div>
-
-<!-- ══ SONA IMAGE ══ -->
-<div class="emily-sona">
-  <img src="LINK_SONA_CỦA_BẠN" alt="Sona" class="sona-img">
-</div>
-
 <div class="right-top">
 <!-- ══ STATUS ══ -->
 <article class="status-box">
@@ -68,7 +62,8 @@
   <img src="https://files.catbox.moe/y1t2gs.png" alt="seriesbanner" class="series-banner">
   <div class="overlay">
     <img src="https://files.catbox.moe/wxi14z.png" alt="logo" class="series-logo">
-    <div class="seriestitle" style="font-family: 'Cinzel Decorative', serif; font-size: 1.0rem; font-weight: 400; ">University College London</div>
+       
+ <div class="seriestitle" style="font-family: 'Cinzel Decorative', serif; font-size: 1.0rem; font-weight: 400; ">University College London</div>
     <div class="info">
       <p>Nestled in the heart of Bloomsbury, London, University College London has stood for nearly two centuries — a place where ambition meets tradition, where the brightest minds come to prove themselves against the weight of history.</p>
       <p>Founded in 1826, UCL was the first university in England to open its doors regardless of religion or background. Its grand portico, its echoing halls, its libraries stacked floor to ceiling — all of it carries the quiet pressure of expectation.</p>
@@ -76,9 +71,9 @@
     </div>
     <div class="series-buttons">
       <a href="https://janitorai.com/search?mode=all&sort=popular&custom_tags=uclfiction&page=1" class="serieslink serieslink--hashtag">＃ UCL fiction</a>
-      <a href="LINK" class="serieslink serieslink--card">✦ Card</a>
+<a href="LINK" class="serieslink serieslink--card">✦ Card</a>
       <a href="LINK" class="serieslink serieslink--notion">◈ Notion</a>
-    </div>
+ </div>
   </div>
 </div>
 
@@ -336,49 +331,12 @@ div:has(> .css-1s5evre), div:has(~ .css-1s5evre) { background: 0 0 !important; }
 .profile-info-stack { height: auto; width: 100%; display: grid; grid-template-columns: 100%; grid-template-rows: 250px 150px auto auto auto; grid-auto-rows: auto; gap: 0; position: relative; overflow-x: hidden; }
 .pp-page-background::after { content: ''; position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: #FAE8EDcc; }
 .pp-uc-avatar-container { order: -3; grid-row: 3 / 4; grid-column: 1 / -1; height: auto; align-content: start; z-index: 2; padding: 15px 15px 0 15px; display: flex; flex-direction: column; align-items: center; }
-.pp-uc-avatar { display: none !important; }
+.pp-uc-avatar { width: 80%; height: auto; max-height: 350px; margin: auto; border: 2px solid #FFC2D1; object-fit: cover; display: block; }
 .profile-info-stack-inner { order: -2; grid-row: 4 / 5; grid-column: 1 / -1; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 4px 20px 10px; gap: 1px; }
 .pp-uc-followers-count { margin: 0; order: 1; }
 .pp-uc-member-since { display: none; }
 .profile-info-stack-inner-flex { padding: 0; transform-origin: top; order: 3; display: flex; justify-content: center; }
 .css-hjkukh { margin: 6px auto 0; filter: grayscale(100%) contrast(1.1); order: 4; grid-row: unset; grid-column: unset; }
-
-
-/* ════════════════════════════════════════
-   3B. SONA IMAGE
-   ════════════════════════════════════════ */
-
-.emily-sona {
-  grid-row: 3 / 4;
-  grid-column: 1 / -1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  pointer-events: none;
-  z-index: 1;
-  margin-top: -60px;
-  overflow: visible;
-}
-
-.sona-img {
-  width: auto;
-  max-width: 320px;
-  height: 480px;
-  object-fit: contain;
-  object-position: center bottom;
-  display: block;
-  -webkit-mask-image: linear-gradient(to bottom,
-    rgba(0,0,0,1) 0%,
-    rgba(0,0,0,1) 70%,
-    rgba(0,0,0,0) 100%
-  );
-  mask-image: linear-gradient(to bottom,
-    rgba(0,0,0,1) 0%,
-    rgba(0,0,0,1) 70%,
-    rgba(0,0,0,0) 100%
-  );
-  filter: drop-shadow(0 8px 24px #FFA2B950);
-}
 
 
 /* ════════════════════════════════════════
@@ -498,7 +456,7 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   font-family: 'Petit Formal Script', cursive;
   font-size: 1.3rem;
   font-weight: 580;
-  color: #FFA2B9;
+color: #FFA2B9;
   text-align: center;
   letter-spacing: -0.5px;
   order: 0;
@@ -529,11 +487,9 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   color: #c45c7a;
   text-align: center;
 }
-
 /* ════════════════════════════════════════
    8. BANNER
    ════════════════════════════════════════ */
-
 .emily-banner { grid-area: 1 / 1 / 3 / -1; position: relative; overflow: hidden; height: 380px; }
 .emily-banner img { height: 100%; width: 100%; object-fit: cover; display: block; object-position: center center; }
 .emily-banner::after { content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 50%; background: linear-gradient(to bottom, transparent 0%, #FAE8ED 100%); pointer-events: none; }
@@ -612,10 +568,10 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   padding: 10px 5%;
 }
 .tags-wrapper {
-  width: 100%;
+  width: 100%;           /* đổi từ 80% → 100% */
   border-left: 2px solid #FFC2D1;
   padding: 8px 14px;
-  background: transparent;
+  background: transparent;   /* bỏ background */
   position: relative;
   margin-top: 8px;
   box-sizing: border-box;
@@ -728,6 +684,7 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   position: absolute;
   top: 220px;
   right: 27px;
+  transform: unset;
   font-family: 'Petit Formal Script', cursive;
   font-size: 1.5rem;
   color: #c45c7a;
@@ -738,8 +695,10 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   pointer-events: none;
   white-space: nowrap;
 }
-.pp-cc-wrapper:hover::before { opacity: 1; }
 
+.pp-cc-wrapper:hover::before {
+  opacity: 1;
+}
 
 /* ════════════════════════════════════════
    17. PAGINATION & FILTER
@@ -830,32 +789,14 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 @media only screen and (min-width: 900px) {
   .profile-info-stack { grid-template-columns: 320px 1fr; grid-template-rows: 320px auto auto auto auto auto auto; grid-auto-rows: auto; }
   .emily-banner { grid-area: 1 / 1 / 2 / -1; height: 350px; }
-
-  /* SONA — desktop: cột trái, đè lên banner */
-  .emily-sona {
-    grid-row: 1 / 4;
-    grid-column: 1 / 2;
-    align-items: flex-end;
-    justify-content: center;
-    margin-top: 0;
-    padding: 0 10px;
-    z-index: 3;
-    pointer-events: none;
-  }
-  .sona-img {
-    max-width: 300px;
-    height: 560px;
-    object-position: center bottom;
-  }
-
-  .pp-uc-avatar-container { grid-row: 2 / 4; grid-column: 1 / 2; min-height: unset; height: auto; padding: 20px 20px 0; overflow: hidden; opacity: 0; pointer-events: none; }
-  .pp-uc-avatar-container::after { font-size: clamp(1rem, 2vw, 1.4rem); white-space: normal; text-align: center; line-height: 1.3; opacity: 0; }
+.pp-uc-avatar-container { grid-row: 2 / 4; grid-column: 1 / 2; min-height: unset; height: auto; padding: 20px 20px 0; overflow: hidden; }
+  .pp-uc-avatar-container::after { font-size: clamp(1rem, 2vw, 1.4rem); white-space: normal; text-align: center; line-height: 1.3; }
   .pp-uc-avatar { width: 100%; height: 260px; object-fit: cover; object-position: top; }
   .profile-info-stack-inner { grid-row: 4 / 5; grid-column: 1 / 2; display: flex; flex-direction: column; align-items: center; padding: 8px 20px; gap: 4px; }
   .profile-info-stack-inner-flex { grid-area: unset; padding: 5px; width: 100%; text-align: center; display: flex; justify-content: center; }
   .pp-uc-followers-count { grid-area: unset; margin: 0; font-size: 0.85rem; }
   .pp-uc-member-since { grid-area: unset; margin: 0; font-size: 0.85rem; }
-  .css-hjkukh { grid-area: unset; margin: 4px auto; }
+.css-hjkukh { grid-area: unset; margin: 4px auto; }
   .profile-about-me+div { grid-row: 5 / 6; grid-column: 1 / 2; position: static; width: 100%; padding: 8px 20px; pointer-events: auto; }
   .profile-about-me+div>* { justify-content: center; }
   .status-box { grid-area: 2 / 2 / 3 / 3; width: 90%; margin: 60px 5% 0; align-self: start; }
@@ -873,23 +814,26 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   .favorites   { grid-row: 9 / 10  !important; grid-column: 1 / -1 !important; }
   .recommended { grid-row: 10 / 11 !important; grid-column: 1 / -1 !important; }
   .talent      { grid-row: 11 / 12 !important; grid-column: 1 / -1 !important; }
-  .profile-filters-flex-inner { flex-wrap: nowrap !important; }
-
-  /* username đè lên sona */
-  .pp-uc-avatar-container::after {
-    opacity: 1;
-    pointer-events: none;
-    position: relative;
-    z-index: 10;
-    margin-top: 480px;
+.profile-filters-flex-inner {
+  flex-wrap: nowrap !important;
   }
 }
-
 /* ════ FIX LATEST DROPDOWN DESKTOP ════ */
 @media only screen and (min-width: 900px) {
-  .profile-filters-flex-inner-onorderchanged { flex: 0 0 auto !important; min-width: 0 !important; overflow: visible !important; }
-  .profile-filters-flex-inner-hassearchfilter { flex: 1 1 auto !important; min-width: 0 !important; overflow: hidden !important; }
-  .profile-filters-flex-inner { flex-wrap: nowrap !important; padding-right: 80px !important; }
+  .profile-filters-flex-inner-onorderchanged {
+    flex: 0 0 auto !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+  }
+  .profile-filters-flex-inner-hassearchfilter {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+  .profile-filters-flex-inner {
+    flex-wrap: nowrap !important;
+    padding-right: 80px !important;
+  }
 }
 
 
@@ -901,26 +845,12 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
   .right-top { display: block; width: 100%; }
   .right-top .status-box { grid-row: 6 / 7 !important; grid-column: 1 / -1 !important; width: 90%; margin: 20px auto 10px; }
   .right-top .buttons { grid-row: 7 / 8 !important; grid-column: 1 / -1 !important; justify-content: center; }
-  .emily-banner { height: 350px; }
-  .about { grid-area: unset !important; padding: 10px 0 !important; align-items: center !important; }
+ .emily-banner { height: 350px; }
+ .about { grid-area: unset !important; padding: 10px 0 !important; align-items: center !important; }
   .aboutcontent { width: 95% !important; }
   .profile-info-stack { grid-template-columns: 100%; grid-template-rows: 100px 320px auto auto; grid-auto-rows: auto; width: 100%; overflow-x: hidden; }
   .emily-banner { grid-row: 1 / 3; grid-column: 1 / -1; height: 80%; }
-
-  /* SONA — mobile: centered, đè lên banner */
-  .emily-sona {
-    grid-row: 2 / 4;
-    grid-column: 1 / -1;
-    margin-top: -80px;
-    justify-content: center;
-    z-index: 2;
-  }
-  .sona-img {
-    max-width: 260px;
-    height: 400px;
-  }
-
-  .pp-uc-avatar-container { grid-row: 2 / 3; grid-column: 1 / -1; margin: 0 auto; display: flex; flex-direction: column; align-items: center; padding: 0 15px; opacity: 0; pointer-events: none; }
+  .pp-uc-avatar-container { grid-row: 2 / 3; grid-column: 1 / -1; margin: 0 auto; display: flex; flex-direction: column; align-items: center; padding: 0 15px; }
   .profile-info-stack-inner { grid-column: 1 / -1; grid-row: 3 / 4; position: static; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 0 10px 6px; }
   .pp-uc-followers-count { order: 1; }
   .pp-uc-member-since { order: 2; }
@@ -1036,7 +966,7 @@ body:has(.wine-toggle[open]) .serieslink--notion { background: #3d1020 !importan
 body:has(.wine-toggle[open]) .serieslink--hashtag:hover,
 body:has(.wine-toggle[open]) .serieslink--card:hover,
 body:has(.wine-toggle[open]) .serieslink--notion:hover { background: #7a2035 !important; border-color: #a02040 !important; }
-body:has(.wine-toggle[open]) .tags-wrapper { border-left-color: #7a2035 !important; }
+body:has(.wine-toggle[open]) .tags-wrapper { border-left-color: #7a2035 !important; background: #2e0e18e3 !important; }
 body:has(.wine-toggle[open]) .tags-label { color: #c47080 !important; }
 body:has(.wine-toggle[open]) .tag-item { border-color: #7a2035 !important; color: #c47080 !important; }
 body:has(.wine-toggle[open]) .tag-item:hover { background: #7a2035 !important; border-color: #a02040 !important; color: #f2e0e6 !important; }
@@ -1120,10 +1050,8 @@ body:has(.wine-toggle[open]) .recommended-scroll::-webkit-scrollbar-thumb { back
 body:has(.wine-toggle[open]) .recommended-scroll::-webkit-scrollbar-thumb:hover { background: #a02040 !important; }
 body:has(.wine-toggle[open]) .talent-scroll::-webkit-scrollbar-thumb { background: #7a2035 !important; }
 body:has(.wine-toggle[open]) .talent-scroll::-webkit-scrollbar-thumb:hover { background: #a02040 !important; }
-body:has(.wine-toggle[open]) .pp-uc-followers-count::before { color: #c47080 !important; }
-/* sona dark mode — drop shadow đổi màu */
-body:has(.wine-toggle[open]) .sona-img {
-  filter: drop-shadow(0 8px 24px #a0203050);
+body:has(.wine-toggle[open]) .pp-uc-followers-count::before {
+  color: #c47080 !important;
 }
 
 /* ════ BANNER SWAP ════ */
@@ -1170,4 +1098,103 @@ body:has(.wine-toggle[open]) .banner-dark  { display: block; }
 .recommended-scroll::-webkit-scrollbar-thumb:hover,
 .talent-scroll::-webkit-scrollbar-thumb:hover { background: #FFA2B9; }
 
+</style>
+<div class="particles-container">
+  <div class="p p1"></div><div class="p p2"></div><div class="p p3"></div><div class="p p4"></div>
+  <div class="p p5"></div><div class="p p6"></div><div class="p p7"></div><div class="p p8"></div>
+  <div class="p p9"></div><div class="p p10"></div><div class="p p11"></div><div class="p p12"></div>
+  <div class="p p13"></div><div class="p p14"></div><div class="p p15"></div><div class="p p16"></div>
+  <div class="p p17"></div><div class="p p18"></div><div class="p p19"></div><div class="p p20"></div>
+  <div class="p p21"></div><div class="p p22"></div><div class="p p23"></div><div class="p p24"></div>
+  <div class="p p25"></div><div class="p p26"></div><div class="p p27"></div><div class="p p28"></div>
+  <div class="p p29"></div><div class="p p30"></div><div class="p p31"></div><div class="p p32"></div>
+  <div class="p p33"></div><div class="p p34"></div><div class="p p35"></div><div class="p p36"></div>
+  <div class="p p37"></div><div class="p p38"></div><div class="p p39"></div><div class="p p40"></div>
+</div>
+
+<style>
+/* ════════════════════════════════════════
+   PARTICLES — FALLING STARS
+   ════════════════════════════════════════ */
+
+.particles-container {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+@keyframes float-particle {
+  0%   { transform: translateY(-10vh) rotate(0deg); opacity: 0; }
+  15%  { opacity: 1; }
+  85%  { opacity: 1; }
+  100% { transform: translateY(105vh) rotate(360deg); opacity: 0; }
+}
+
+/* ── Mặc định: vàng nhạt ── */
+.p {
+  position: absolute;
+  top: -50px;
+  color: #FFFACD;
+  text-shadow: 0 0 8px #FFD700, 0 0 18px #FFFACD;
+  animation: float-particle 8s linear infinite;
+  transition: color 0.8s ease, text-shadow 0.8s ease;
+}
+
+.p::before         { content: "⚝"; font-size: 1.1rem; }
+.p:nth-child(3n)::before { content: "✧"; }
+.p:nth-child(5n)::before { content: "♡"; }
+
+/* ── Dark Rose: trắng phát sáng hồng ── */
+body:has(.wine-toggle[open]) .p {
+  color: #ffffff;
+  text-shadow:
+    0 0 8px #FFA2B9,
+    0 0 18px #FFA2B9,
+    0 0 35px #ff6fa3;
+}
+
+/* ── Vị trí & delay từng hạt ── */
+.p1  { left: 5%;  animation-delay: 0s;    animation-duration: 8s;  }
+.p2  { left: 15%; animation-delay: 1.5s;  animation-duration: 6s;  }
+.p3  { left: 25%; animation-delay: 4s;    animation-duration: 9s;  }
+.p4  { left: 35%; animation-delay: 0.8s;  animation-duration: 8s;  }
+.p5  { left: 45%; animation-delay: 2.2s;  animation-duration: 7s;  }
+.p6  { left: 55%; animation-delay: 5.5s;  animation-duration: 8s;  }
+.p7  { left: 65%; animation-delay: 1.2s;  animation-duration: 10s; }
+.p8  { left: 75%; animation-delay: 3.3s;  animation-duration: 8s;  }
+.p9  { left: 85%; animation-delay: 0.2s;  animation-duration: 6s;  }
+.p10 { left: 95%; animation-delay: 4.5s;  animation-duration: 8s;  }
+.p11 { left: 10%; animation-delay: 2.5s;  animation-duration: 8s;  }
+.p12 { left: 20%; animation-delay: 6s;    animation-duration: 8s;  }
+.p13 { left: 30%; animation-delay: 1s;    animation-duration: 8s;  }
+.p14 { left: 40%; animation-delay: 5s;    animation-duration: 8s;  }
+.p15 { left: 50%; animation-delay: 3.5s;  animation-duration: 8s;  }
+.p16 { left: 60%; animation-delay: 7s;    animation-duration: 8s;  }
+.p17 { left: 70%; animation-delay: 0.5s;  animation-duration: 8s;  }
+.p18 { left: 80%; animation-delay: 4.2s;  animation-duration: 8s;  }
+.p19 { left: 90%; animation-delay: 1.8s;  animation-duration: 8s;  }
+.p20 { left: 2%;  animation-delay: 8s;    animation-duration: 8s;  }
+.p21 { left: 12%; animation-delay: 3.2s;  animation-duration: 8s;  }
+.p22 { left: 22%; animation-delay: 5.8s;  animation-duration: 8s;  }
+.p23 { left: 32%; animation-delay: 0.1s;  animation-duration: 8s;  }
+.p24 { left: 42%; animation-delay: 6.5s;  animation-duration: 8s;  }
+.p25 { left: 52%; animation-delay: 2.4s;  animation-duration: 8s;  }
+.p26 { left: 62%; animation-delay: 9s;    animation-duration: 8s;  }
+.p27 { left: 72%; animation-delay: 4.8s;  animation-duration: 8s;  }
+.p28 { left: 82%; animation-delay: 1.1s;  animation-duration: 8s;  }
+.p29 { left: 92%; animation-delay: 7.5s;  animation-duration: 8s;  }
+.p30 { left: 7%;  animation-delay: 3.9s;  animation-duration: 8s;  }
+.p31 { left: 17%; animation-delay: 0.4s;  animation-duration: 8s;  }
+.p32 { left: 27%; animation-delay: 5.2s;  animation-duration: 8s;  }
+.p33 { left: 37%; animation-delay: 2.1s;  animation-duration: 8s;  }
+.p34 { left: 47%; animation-delay: 8.4s;  animation-duration: 8s;  }
+.p35 { left: 57%; animation-delay: 4.3s;  animation-duration: 8s;  }
+.p36 { left: 67%; animation-delay: 1.7s;  animation-duration: 8s;  }
+.p37 { left: 77%; animation-delay: 6.1s;  animation-duration: 8s;  }
+.p38 { left: 87%; animation-delay: 0.9s;  animation-duration: 8s;  }
+.p39 { left: 97%; animation-delay: 3.3s;  animation-duration: 8s;  }
+.p40 { left: 50%; animation-delay: 1.6s;  animation-duration: 11s; }
 </style>
