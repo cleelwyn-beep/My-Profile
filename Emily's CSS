@@ -441,8 +441,6 @@ a[class*="avatarContainer"]:hover { transform: scale(1.05); filter: drop-shadow(
 [class*="modalTitle"]::after { content: "?"; }
 [class*="modalFooter"] { padding: 0 1rem 1rem 1rem; border: unset; gap: 0.75rem; }
 [class*="modalContainer"] { max-width: 400px; }
-
-
 /* ════════════════════════════════════════
    7. PROFILE — AVATAR & IDENTITY
    ════════════════════════════════════════ */
@@ -472,11 +470,12 @@ color: #FFA2B9;
 .pp-uc-follow-button span, .pp-uc-options-menu span { color: #c45c7a !important; font-family: 'DM Serif Text', serif !important; }
 #menu-list-public-profile-block-menu { border-radius: 0; overflow: hidden; border: 2px solid #FFC2D1; background: #FDD5DF; font-family: 'Grenze Gotisch', serif; color: #c45c7a; }
 .profile-uc-follow-text { font-size: 0; width: auto; }
-.profile-uc-follow-text::after { content: "Come with me?"; font-size: 1rem; font-family: 'DM Serif Text', serif; font-weight: 500; color: #c45c7a; }
+.profile-uc-follow-text::after { content: "Come with me?"; font-size: 0.95rem; font-family: 'DM Serif Text', serif; font-weight: 500; color: #c45c7a; }
 .profile-uc-follow-button[data-following="true"] .profile-uc-follow-text::after { content: "Welcome ♡"; }
-.pp-uc-options-menu span { color: #c45c7a !important; font-family: 'DM Serif Text', serif !important; font-size: 1rem !important; font-weight: 500 !important; }
+.pp-uc-options-menu span { color: #c45c7a !important; font-family: 'DM Serif Text', serif !important; font-size: 0.95rem !important; font-weight: 500 !important; }
 .pp-uc-options-menu span:first-child { font-size: 0 !important; }
-.pp-uc-options-menu span:first-child::after { content: "‪‪Farewell"; font-size: 1rem !important; font-family: 'DM Serif Text', serif; font-weight: 500; color: #c45c7a; }
+.pp-uc-options-menu span:first-child::after { content: "❤︎"; font-size: 0.95rem !important; font-family: 'DM Serif Text', serif; font-weight: 500; color: #c45c7a; display: block; }
+.pp-uc-options-menu span:last-child { display: none; }
 .profile-followers-count span:nth-of-type(2) { font-size: 0; }
 .profile-followers-count span:nth-of-type(2)::after { font-size: 1rem; content: "darlings"; }
 .pp-uc-avatar-container { overflow: visible !important; }
@@ -487,6 +486,7 @@ color: #FFA2B9;
   color: #c45c7a;
   text-align: center;
 }
+
 /* ════════════════════════════════════════
    8. BANNER
    ════════════════════════════════════════ */
@@ -787,26 +787,100 @@ color: #FFA2B9;
    ════════════════════════════════════════ */
 
 @media only screen and (min-width: 900px) {
-  .profile-info-stack { grid-template-columns: 320px 1fr; grid-template-rows: 320px auto auto auto auto auto auto; grid-auto-rows: auto; }
-  .emily-banner { grid-area: 1 / 1 / 2 / -1; height: 350px; }
-.pp-uc-avatar-container { grid-row: 2 / 4; grid-column: 1 / 2; min-height: unset; height: auto; padding: 20px 20px 0; overflow: hidden; }
-  .pp-uc-avatar-container::after { font-size: clamp(1rem, 2vw, 1.4rem); white-space: normal; text-align: center; line-height: 1.3; }
-  .pp-uc-avatar { width: 100%; height: 260px; object-fit: cover; object-position: top; }
-  .profile-info-stack-inner { grid-row: 4 / 5; grid-column: 1 / 2; display: flex; flex-direction: column; align-items: center; padding: 8px 20px; gap: 4px; }
-  .profile-info-stack-inner-flex { grid-area: unset; padding: 5px; width: 100%; text-align: center; display: flex; justify-content: center; }
+  .profile-info-stack { 
+    grid-template-columns: 320px 1fr; 
+    grid-template-rows: 320px auto auto auto auto auto auto; 
+    grid-auto-rows: auto; 
+  }
+
+  .emily-banner { 
+    grid-area: 1 / 1 / 2 / -1; 
+    height: 350px; 
+  }
+
+  /* Đẩy riêng cột trái xuống bằng transform để không ảnh hưởng grid tổng */
+  .pp-uc-avatar-container { 
+    grid-row: 2 / 4; 
+    grid-column: 1 / 2; 
+    min-height: unset; 
+    height: auto; 
+    padding: 20px 20px 0; 
+    overflow: hidden;
+    transform: translateY(40px); /* Đẩy xuống 40px, cậu có thể tăng số này */
+  }
+
+  .pp-uc-avatar-container::after { 
+    font-size: clamp(1rem, 2vw, 1.4rem); 
+    white-space: normal; 
+    text-align: center; 
+    line-height: 1.3; 
+  }
+
+  .pp-uc-avatar { 
+    width: 100%; 
+    height: 260px; 
+    object-fit: cover; 
+    object-position: top; 
+  }
+
+  /* Username và info cũng phải tụt xuống theo avatar */
+  .profile-info-stack-inner { 
+    grid-row: 4 / 5; 
+    grid-column: 1 / 2; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 8px 20px; 
+    gap: 4px; 
+    transform: translateY(40px); /* Phải bằng với số ở trên */
+  }
+
+  .profile-info-stack-inner-flex { 
+    grid-area: unset; 
+    padding: 5px; 
+    width: 100%; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+  }
+
   .pp-uc-followers-count { grid-area: unset; margin: 0; font-size: 0.85rem; }
   .pp-uc-member-since { grid-area: unset; margin: 0; font-size: 0.85rem; }
-.css-hjkukh { grid-area: unset; margin: 4px auto; }
-  .profile-about-me+div { grid-row: 5 / 6; grid-column: 1 / 2; position: static; width: 100%; padding: 8px 20px; pointer-events: auto; }
+  .css-hjkukh { grid-area: unset; margin: 4px auto; }
+
+  /* Nút dưới cùng của cột trái cũng tụt xuống */
+  .profile-about-me+div { 
+    grid-row: 5 / 6; 
+    grid-column: 1 / 2; 
+    position: static; 
+    width: 100%; 
+    padding: 8px 20px; 
+    pointer-events: auto; 
+    transform: translateY(40px); 
+  }
+
   .profile-about-me+div>* { justify-content: center; }
+
+  /* Cột phải GIỮ NGUYÊN như cũ để không bị lệch About Me */
   .status-box { grid-area: 2 / 2 / 3 / 3; width: 90%; margin: 60px 5% 0; align-self: start; }
   .buttons { grid-area: 3 / 2 / 4 / 3; justify-content: flex-start; padding: 8px 5% 0; }
   .about { grid-area: 4 / 2 / 5 / 3; align-items: flex-start; padding: 8px 5% 0; }
   .aboutcontent { width: 100%; margin-bottom: -1.3rem; }
-  .right-top { grid-area: 2 / 2 / 3 / 3; display: flex; flex-direction: column; gap: 12px; padding: 60px 5% 0; align-self: start; }
+
+  .right-top { 
+    grid-area: 2 / 2 / 3 / 3; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px; 
+    padding: 60px 5% 0; 
+    align-self: start; 
+  }
+
   .status-box { width: 100%; margin: 0; grid-area: unset !important; }
   .buttons { padding: 0; grid-area: unset !important; }
   .about { grid-area: 3 / 2 / 5 / 3; align-items: flex-start; padding: 4px 5% 0; align-self: start; }
+
+  /* Các phần bên dưới GIỮ NGUYÊN row cũ */
   .series      { grid-row: 6 / 7   !important; grid-column: 1 / -1 !important; }
   .tags-section { grid-row: 7 / 8  !important; grid-column: 1 / -1 !important; }
   .box         { grid-row: 8 / 9   !important; grid-column: 1 / -1 !important; }
@@ -814,10 +888,12 @@ color: #FFA2B9;
   .favorites   { grid-row: 9 / 10  !important; grid-column: 1 / -1 !important; }
   .recommended { grid-row: 10 / 11 !important; grid-column: 1 / -1 !important; }
   .talent      { grid-row: 11 / 12 !important; grid-column: 1 / -1 !important; }
-.profile-filters-flex-inner {
-  flex-wrap: nowrap !important;
+
+  .profile-filters-flex-inner {
+    flex-wrap: nowrap !important;
   }
 }
+
 /* ════ FIX LATEST DROPDOWN DESKTOP ════ */
 @media only screen and (min-width: 900px) {
   .profile-filters-flex-inner-onorderchanged {
@@ -835,8 +911,7 @@ color: #FFA2B9;
     padding-right: 80px !important;
   }
 }
-
-
+ 
 /* ════════════════════════════════════════
    20. RESPONSIVE — MOBILE (≤899px)
    ════════════════════════════════════════ */
