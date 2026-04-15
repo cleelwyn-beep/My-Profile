@@ -333,7 +333,7 @@ div:has(> .css-1s5evre), div:has(~ .css-1s5evre) { background: 0 0 !important; }
 .pp-uc-avatar-container { order: -3; grid-row: 3 / 4; grid-column: 1 / -1; height: auto; align-content: start; z-index: 2; padding: 15px 15px 0 15px; display: flex; flex-direction: column; align-items: center; }
 .pp-uc-avatar { width: 80%; height: auto; max-height: 350px; margin: auto; border: 2px solid #FFC2D1; object-fit: cover; display: block; }
 .profile-info-stack-inner { order: -2; grid-row: 4 / 5; grid-column: 1 / -1; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 4px 20px 10px; gap: 1px; }
-.pp-uc-followers-count { margin: 0; order: 1; }
+.pp-uc-followers-count { margin: 0; order: 1; width: 100%; text-align: center; }
 .pp-uc-member-since { display: none; }
 .profile-info-stack-inner-flex { padding: 0; transform-origin: top; order: 3; display: flex; justify-content: center; }
 .css-hjkukh { margin: 6px auto 0; filter: grayscale(100%) contrast(1.1); order: 4; grid-row: unset; grid-column: unset; }
@@ -486,7 +486,19 @@ color: #FFA2B9;
   color: #c45c7a;
   text-align: center;
 }
-
+.pp-uc-followers-count::after {
+  content: "「 every soul who wanders here — thank you for staying. 」";
+  display: block;
+  font-family: 'Cardo', serif;
+  font-size: 0.88rem;
+  font-style: italic;
+  color: #c45c7a;
+  opacity: 0.75;
+  text-align: center;
+  margin-top: 6px;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+}
 /* ════════════════════════════════════════
    8. BANNER
    ════════════════════════════════════════ */
@@ -767,7 +779,79 @@ color: #FFA2B9;
 .profile-filter-modal-modal-overlay { background: #FFA2B950; }
 .chakra-spinner { color: #FFA2B9 !important; }
 
+/* ════ FIX JANITOR UPDATE — CHARACTERS HEADING ════ */
+.pp-tabs-button {
+  background: transparent !important;
+  background-color: transparent !important;
+  text-align: center !important;
+  width: 100% !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
 
+[class*="profile-tabs"],
+[class*="profileTabs"],
+.chakra-tabs__tab-panel,
+.chakra-tabs > div,
+[role="tabpanel"] > div:first-child {
+  background: transparent !important;
+  background-color: transparent !important;
+  text-align: center !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Target heading "CHARACTERS" / "7 characters" wrapper mới */
+.profile-character-count-heading,
+[class*="characterCount"],
+[class*="character-count"],
+[class*="profileCharacter"] > div:first-child,
+[class*="pp-cc-list"] > div:first-child {
+  background: transparent !important;
+  color: #c45c7a !important;
+  font-family: 'Cinzel Decorative', serif !important;
+  text-align: center !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+}
+
+/* ════ FIX CHARACTERS TAB CENTERED ════ */
+.css-wb9w2b {
+  width: 100% !important;
+  justify-content: center !important;
+}
+
+.chakra-tabs__tablist {
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+/* ════ FIX "7 characters" CENTERED ════ */
+.profile-badge-flex-outer,
+.profile-pagination-flex-outer,
+._outer_1jhaa_48 {
+  justify-content: center !important;
+  width: 100% !important;
+text-shadown: none;
+}
+
+.profile-badge-flex-inner {
+  justify-content: center !important;
+  width: auto !important;
+}
+.pp-pg-total-count,
+.profile-badge-total-count {
+  font-size: 1.2rem !important;
+  text-shadow: none !important;
+}
+
+.pp-pg-total-text,
+.profile-badge-total-text {
+  font-size: 1.2rem !important;
+  text-shadow: none !important;
+}
 /* ════════════════════════════════════════
    18. SKIP / COLOR TOGGLE / CREDITS
    ════════════════════════════════════════ */
@@ -1041,7 +1125,7 @@ body:has(.wine-toggle[open]) .serieslink--notion { background: #3d1020 !importan
 body:has(.wine-toggle[open]) .serieslink--hashtag:hover,
 body:has(.wine-toggle[open]) .serieslink--card:hover,
 body:has(.wine-toggle[open]) .serieslink--notion:hover { background: #7a2035 !important; border-color: #a02040 !important; }
-body:has(.wine-toggle[open]) .tags-wrapper { border-left-color: #7a2035 !important; background: #2e0e18e3 !important; }
+body:has(.wine-toggle[open]) .tags-wrapper { border-left-color: #7a2035 !important; background: #190810e3 !important; }
 body:has(.wine-toggle[open]) .tags-label { color: #c47080 !important; }
 body:has(.wine-toggle[open]) .tag-item { border-color: #7a2035 !important; color: #c47080 !important; }
 body:has(.wine-toggle[open]) .tag-item:hover { background: #7a2035 !important; border-color: #a02040 !important; color: #f2e0e6 !important; }
@@ -1128,7 +1212,13 @@ body:has(.wine-toggle[open]) .talent-scroll::-webkit-scrollbar-thumb:hover { bac
 body:has(.wine-toggle[open]) .pp-uc-followers-count::before {
   color: #c47080 !important;
 }
-
+body:has(.wine-toggle[open]) .pp-tabs-button {
+  color: #c47080 !important;
+}
+body:has(.wine-toggle[open]) .transparent .react-select__value-container > div,
+body:has(.wine-toggle[open]) .transparent .react-select__dropdown-indicator svg {
+  color: #c47080 !important;
+}
 /* ════ BANNER SWAP ════ */
 .banner-dark { display: none; }
 body:has(.wine-toggle[open]) .banner-light { display: none; }
