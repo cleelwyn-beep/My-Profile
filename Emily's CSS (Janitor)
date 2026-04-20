@@ -373,9 +373,9 @@ div:has(> .css-1s5evre), div:has(~ .css-1s5evre) { background: 0 0 !important; }
 .pp-top-bar-back-button svg { display: none; }
 .pp-top-bar-back-button > p { font-size: 0; }
 .pp-top-bar-back-button > p::before { font-size: 0.9rem; content: "↲ "; color: #c45c7a; }
-.pp-top-bar-back-button > p::after { font-size: 0.9rem; content: "Leave"; font-family: 'Petit Formal Script', serif; color: #c45c7a; transition: color 300ms ease; font-weight: 600; }
+.pp-top-bar-back-button > p::after { font-size: 0.85rem; content: "Leave"; font-family: 'Petit Formal Script', serif; color: #c45c7a; transition: color 300ms ease; font-weight: 600; }
 .pp-top-bar-back-button:hover > p::after { color: #FDD5DF; }
-.pp-top-bar-title::after { font-size: 1.2rem; content: "Celestial  Haven"; color: #c45c7a; font-family: 'Petit Formal Script', serif; font-weight: 600; letter-spacing: -0.5px; line-height: 1.5; overflow: visible !important; }
+.pp-top-bar-title::after { font-size: 1.0rem; content: "Celestial  Haven"; color: #c45c7a; font-family: 'Petit Formal Script', serif; font-weight: 600; letter-spacing: -0.5px; line-height: 1.5; overflow: visible !important; }
 .pp-top-bar-back-button p { display: block !important; }
 :has(> .profile-top-bar-app-menu-list) .profile-top-bar-app-menu-list > * { display: contents; }
 :has(> .profile-top-bar-app-menu-list) { visibility: visible !important; transform: unset !important; }
@@ -843,13 +843,13 @@ text-shadown: none;
 }
 .pp-pg-total-count,
 .profile-badge-total-count {
-  font-size: 1.2rem !important;
+  font-size: 1.0rem !important;
   text-shadow: none !important;
 }
 
 .pp-pg-total-text,
 .profile-badge-total-text {
-  font-size: 1.2rem !important;
+  font-size: 1.0rem !important;
   text-shadow: none !important;
 }
 /* ════════════════════════════════════════
@@ -1249,7 +1249,7 @@ body:has(.wine-toggle[open]) .banner-dark  { display: block; }
 .scroll::-webkit-scrollbar,
 .favorites-scroll::-webkit-scrollbar,
 .recommended-scroll::-webkit-scrollbar,
-.talent-scroll::-webkit-scrollbar { height: 3px; }
+.talent-scroll::-webkit-scrollbar { height: 2px; }
 .scroll::-webkit-scrollbar-track,
 .favorites-scroll::-webkit-scrollbar-track,
 .recommended-scroll::-webkit-scrollbar-track,
